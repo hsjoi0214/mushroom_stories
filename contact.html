@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Boring Mushroom Company</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style>
+    body>footer {
+      text-align: center;
+      font-weight: bolder;
+      padding: 3px;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+
+      }
+  </style>
+
+</head>
+
+<body class="contact02">
+  <header>
+    <h1>CONTACT US</h1>
+    <p>Write us a message or give us feedback!</p>
+  </header>
+  <br>
+  <nav>
+    <ul>
+      <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
+      <li><a href="gallery.html" aria-label="Go to our products page">Gallery</a></li>
+      <li><a href="account.html" aria-label="Go to account page" target="_blank">Account</a></li>
+    </ul>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <article>
+    <form action="https://formdump.codeinstitute.net" method="POST">
+      <section>
+        <fieldset>
+          <legend>Your details</legend>
+          <div class="name_email-field">
+            <label for="name-field">Name:</label>
+            <input id="name-field" type="text" name="full_name" placeholder="Please enter Your name" required>
+          </div>
+
+          <div class="name_email-field">
+            <label for="email-field">Email:</label>
+            <input id="email-field" type="email" name="email" placeholder="Please enter Your email" required>
+          </div>
+        </fieldset>
+      </section>
+
+      <br>
+      <br>
+
+      <section>
+        <fieldset>
+          <legend>Tell us more</legend>
+          <div>
+            <label for="fav-mushroom"><strong>Your favorite mushroom?</strong></label>
+            <input id=" fav-mushroom" list="mushrooms" name="fav-mushroom">
+            <datalist id="mushrooms">
+              <option value="Turkey Tail">
+              <option value="Cordeceps">
+              <option value="Lion's Mane">
+              <option value="Reishi">
+              <option value="Turkey Tail">
+              <option value="Maitake">
+            </datalist>
+          </div>
+
+          <div>
+            <p><strong>How often do you buy mushroom products?</strong></p>
+
+            <input id="once-in-two" name="visit-frequency" value="once-in-two" type="radio">
+            <label for="once-in-two">Once in two weeks</label>
+
+            <input id="once-a-three" name="visit-frequency" value="once-a-three" type="radio">
+            <label for="once-a-three">Once a three weeks</label>
+
+            <input id="not-often" name="visit-frequency" value="not-often" type="radio">
+            <label for="not-often">Not often</label>
+          </div>
+
+          <div>
+            <p><strong>Which supplementary mushrooms products do you enjoy?</strong></p>
+          </div>
+          <div>
+            <input type="checkbox" id="chagatea-checkbox" name="chagatea">
+            <label for="brownies-checkbox">Chaga Tea</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Lionsmanecapsule-checkbox" name="Lionsmanecapsule">
+            <label for="Lionsmanecapsule-checkbox">Lion's mane capsule</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Lionsmanepowder-checkbox" name="Lionsmanepowder">
+            <label for="Lionsmanepowder-checkbox">Lionsmane powder</label>
+          </div>
+
+        </fieldset>
+      </section>
+
+      <br>
+
+      <section>
+        <fieldset>
+          <legend>Feedback</legend><br>
+          <textarea id="feedback" rows="4" cols="77" name="feedback"
+            placeholder="Give us your feedback or write us a message!" required></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">
+          <strong>Send</strong>
+        </button>
+        <input type="reset" value="Reset Form">
+      </section>
+    </form>
+  </article>
+  <footer class="social-media">
+    <a href="www.facebook.com"><img src="../assets/media/icons8-facebook.gif"></a>&nbsp;&nbsp
+    <a href="www.X.com"><img src="../assets/media/icons8-twitter.gif"></a>&nbsp;&nbsp
+    <a href="www.instagram.com"><img src="../assets/media/icons8-instagram.gif"></a>&nbsp;&nbsp
+  </footer>
+</body>
+
+</html>
