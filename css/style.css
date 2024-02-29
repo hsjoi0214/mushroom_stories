@@ -1,31 +1,36 @@
+/* STYLE FOR 'HOME & CONTACT' PAGE */
+
 * {
     margin: 0;
     padding: 0;
 }
 
+.companylogo {
+  display:none
+}
+
 .home {
   background: url(../assets/media/mushroom21.jpg) no-repeat center center fixed;
   background-size: cover;
-  height: 100%;
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: bolder;
   color: antiquewhite;
-  margin: 0 auto;
-  
- 
+  margin: 0 auto; 
 }
 
-.about {
-    background: url(../assets/media/black02.jpeg) no-repeat centre center fixed;
-    color: antiquewhite;
+.header {
+  text-align: center;
 }
 
 
 nav {
     height: 100px;
     width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .homeabout {
@@ -42,6 +47,55 @@ nav {
     top: 400px;
   }
   
+  /* Responsive design for screen-size=>768px */
+
+@media screen and (min-width: 768px) {
+  .companylogo {
+    display: inline-block;
+    padding: 0px
+  }
+
+  .container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .homeabout {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 510px;
+
+  }
+
+  .gallerylearn {
+    list-style: none;
+    float: right;
+    position: relative;
+    top: 510px;
+  }
+
+}
+
+/* Responsive for screen-size=>820px */
+
+@media screen and (min-width: 820px) {
+  .homeabout {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 540px;
+
+  }
+
+  .gallerylearn {
+    list-style: none;
+    float: right;
+    position: relative;
+    top: 540px;
+  }
+}
+
 .contact {
     list-style: none;
     text-align: center;
@@ -118,11 +172,6 @@ nav {
     padding: 10;
   }
   
-  
-  .social-media a:hover {
-    color: goldenrod;
-  
-  }
 
   .name_email-field input[type=text] {
     width: 100%;
@@ -141,4 +190,91 @@ nav {
     border: none;
     background: #f1f1f1;
   }
-  
+
+ 
+  /* STYLE FOR 'About us' PAGE */
+
+.about {
+  background: url("../assets/media/black02.jpeg") no-repeat center center fixed;
+  color: antiquewhite;
+}
+
+.about header {
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.about nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 50px;
+}
+
+.intro {
+  width: 100%;
+  padding: 80px 0px; 
+}
+
+.intro img {
+  height: auto;
+  width: 490px;
+}
+
+.our-msg {
+  width: 580px;
+}
+
+.our-msg h2 {
+  color: antiquewhite;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.our-msg h6 {
+  color: antiquewhite;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 27px;
+  letter-spacing: 3px;
+}
+
+span {
+  color: goldenrod;
+}
+
+.our-msg p {
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.main {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+details summary h2 {
+  text-align: center;
+  justify-content: center;
+  padding: 0.5rem;
+  cursor: pointer;
+
+}
+
+
+details summary:hover {
+  background-color: goldenrod;
+}
+
+.morecontent p {
+  letter-spacing: 3px;
+  line-height: 30px;
+  font-size: 20px;
+}
