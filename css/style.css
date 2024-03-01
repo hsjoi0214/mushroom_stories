@@ -245,6 +245,16 @@ span {
   color: goldenrod;
 }
 
+span a {
+  color: goldenrod;
+}
+
+span a:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+
 .our-msg p {
   letter-spacing: 3px;
   line-height: 30px;
@@ -278,3 +288,127 @@ details summary:hover {
   line-height: 30px;
   font-size: 20px;
 }
+
+
+/* STYLE FOR 'Gallery' PAGE */
+.product {
+  background: url("black02.jpeg") no-repeat center center fixed;
+  color: antiquewhite;
+}
+
+.product header {
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.product nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 50px;
+}
+
+.product-catalouge {
+  width: 100%;
+  float: left;
+  padding: 1%;
+  border-bottom: 0.01em solid #dddbdb;
+}
+
+
+.mushroom-products {
+  float: left;
+  width: 28%;
+  border-radius: 2%;
+  margin: 1%;
+}
+
+
+.image-box {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 2% 2% 0 0;
+}
+
+.images {
+  height: 15em;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 2% 2% 0 0;
+  transition: all 1s ease;
+}
+
+
+.images:hover {
+  transform: scale(1.3);
+}
+
+
+
+/* IMAGES FOR GALLERY PAGE DEFINED BY "#"-SIGN FOR ID's */
+#image-001 {
+  background-image: url("#cordeceps")
+}
+
+#image-002 {
+  background-image: url("Lion's Mane")
+}
+
+#image-003 {
+  background-image: url("Reishi")
+}
+
+#image-004 {
+  background-image: url("Turkey Tail")
+}
+
+#image-005 {
+  background-image: url("Maitake")
+}
+
+#image-006 {
+  background-image: url("Black Trumpet")
+}
+
+#image-007 {
+  background-image: url("Shiitake")
+}
+
+#image-008 {
+  background-image: url("Oyster")
+}
+
+#image-009 {
+  background-image: url("Porcini")
+}
+
+#image-010 {
+  background-image: url("Portobello")
+}
+
+#image-011 {
+  background-image: url("Chanterella")
+}
+
+#image-012 {
+  background-image: url("Coral")
+}
+
+#image-013 {
+  background-image: url("Enoki")
+}
+
+#image-014 {
+  background-image: url("Hedgehog")
+}
+
+#image-015 {
+  background-image: url("Morel")
+}
+
+#image-015 {
+  background-image: url("Button")
+}
+
