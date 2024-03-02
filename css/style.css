@@ -14,14 +14,11 @@ body {
   font-family: 'Abril Fatface';
 }
 
-.companylogo {
-  display: none
-}
 
 .home-header {
   font-size: 20px;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #F2F5DE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -30,12 +27,20 @@ body {
 }
 
 .home-header a {
-  color: cyan;
+  text-decoration: none;
+  color: inherit;
 
 }
 
+.home-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
 .home-main {
-  background-color: lightblue;
+  background-color: #586F6B;
   flex: 1 0 auto
 }
 
@@ -43,109 +48,73 @@ body {
   background-color: orange;
 }
 
-
-.header {
-  text-align: center;
-}
-
-
 nav {
   height: 100px;
   width: 100%;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
+  padding: 0 0.2rem;
+  
 }
 
-.homeabout {
-  list-style: none;
+#index-sign {
+  list-style-type: none;
   float: left;
-  position: absolute;
-  top: 400px;
+  position: relative;
+  top: 300px;
+  letter-spacing: 4px;
 }
 
-.gallerylearn {
-  list-style: none;
+#about-sign {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  top: 300px;
+  letter-spacing: 4px;
+}
+
+#gallery-sign {
+  list-style-type: none;
   float: right;
   position: relative;
-  top: 400px;
+  top: 215px;
+  letter-spacing: 4px;
 }
 
-.contact {
-  list-style: none;
+#learn-sign {
+  list-style-type: none;
+  float: right;
+  position: relative;
+  top: 215px;
+  letter-spacing: 4px;
+}
+
+#contact-sign {
+  list-style-type: none;
   text-align: center;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
 
 }
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
+
+/* Responsive design for screen-size=>375px */
+
 
 /* Responsive design for screen-size=>768px */
 
-@media screen and (min-width: 768px) {
-  .companylogo {
-    display: inline-block;
-    padding: 0px
-  }
 
-  .homeabout {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 450%;
-
-  }
-
-  .gallerylearn {
-    list-style: none;
-    float: right;
-    position: relative;
-    top: 450%;
-  }
-
-  .contact {
-    list-style: none;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 5%;
-  
-  }
-
-}
 
 /* Responsive for screen-size=>1024px */
 
-@media screen and (min-width: 1024px) {
-  .homeabout {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 570%;
 
-  }
-
-  .gallerylearn {
-    list-style: none;
-    float: right;
-    position: relative;
-    top: 570%;
-  }
-
-  .contact {
-    list-style: none;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 5%;
-  }
-}
 
 
 .contact02 {
@@ -169,7 +138,7 @@ nav {
 ul li a {
   display: block;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   padding: 0 30px;
@@ -251,7 +220,7 @@ form {
 }
 
 .about-header nav li {
-  list-style: none;
+  list-style-type: none;
   float: left;
   position: relative;
   top: 50px;
@@ -487,7 +456,7 @@ details summary:hover {
 }
 
 .nav4learn li {
-  list-style: none;
+  list-style-type: none;
   float: left;
   position: relative;
   top: 50px;
