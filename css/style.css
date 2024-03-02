@@ -1,12 +1,19 @@
 /* STYLE FOR 'HOME & CONTACT' PAGE */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .companylogo {
-  display:none
+  display: none
 }
 
 .home {
@@ -17,7 +24,7 @@
   font-size: 25px;
   font-weight: bolder;
   color: antiquewhite;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .header {
@@ -26,28 +33,28 @@
 
 
 nav {
-    height: 100px;
-    width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .homeabout {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 400px;
-  }
-  
+  list-style: none;
+  float: left;
+  position: absolute;
+  top: 400px;
+}
+
 .gallerylearn {
-    list-style: none;
-    float: right;
-    position: relative;
-    top: 400px;
-  }
-  
-  /* Responsive design for screen-size=>768px */
+  list-style: none;
+  float: right;
+  position: relative;
+  top: 400px;
+}
+
+/* Responsive design for screen-size=>768px */
 
 @media screen and (min-width: 768px) {
   .companylogo {
@@ -97,102 +104,102 @@ nav {
 }
 
 .contact {
-    list-style: none;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 20px;
-  }
+  list-style: none;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
 
 
-  .contact02 {
-    background: url(../assets/media/black02.jpeg) no-repeat center center fixed;
-    color: antiquewhite;
-  }
-  
-  .contact02 header {
-    margin: 10px auto;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .contact02 nav li {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 50px;
-  }
-  
-  ul li a {
-    display: block;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: antiquewhite;
-    padding: 0 30px;
-  }
-  
-  ul li a:hover {
-    color: goldenrod;
-  
-  }
-  
-  ul li a i:hover {
-    color: goldenrod;
-  
-  }
-  
-  div {
-    margin: 10px auto;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  
-  fieldset div {
-    text-align: left;
-  }
-  
-  fieldset p {
-    text-align: left;
-  }
-  
-  .feedback textarea {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    resize: none;
-  
-  }
-  
-  form {
-    margin: 0;
-    padding: 10;
-  }
-  
+.contact02 {
+  background: url(../assets/media/black02.jpeg) no-repeat center center fixed;
+  color: antiquewhite;
+}
 
-  .name_email-field input[type=text] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
-  
-  .name_email-field input[type=email] {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-  }
+.contact02 header {
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
 
- 
-  /* STYLE FOR 'About us' PAGE */
+.contact02 nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 50px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  padding: 0 30px;
+}
+
+ul li a:hover {
+  color: goldenrod;
+
+}
+
+ul li a i:hover {
+  color: goldenrod;
+
+}
+
+div {
+  margin: 10px auto;
+  padding: 10px;
+  text-align: center;
+}
+
+
+fieldset div {
+  text-align: left;
+}
+
+fieldset p {
+  text-align: left;
+}
+
+.feedback textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+
+}
+
+form {
+  margin: 0;
+  padding: 10;
+}
+
+
+.name_email-field input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.name_email-field input[type=email] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+/* STYLE FOR 'About us' PAGE */
 
 .about {
   background: url("../assets/media/black02.jpeg") no-repeat center center fixed;
@@ -214,16 +221,20 @@ nav {
 
 .intro {
   width: 100%;
-  padding: 80px 0px; 
+  padding: 80px 0px;
+
 }
+
 
 .intro img {
   height: auto;
   width: 490px;
+  display: none;
 }
 
 .our-msg {
   width: 580px;
+
 }
 
 .our-msg h2 {
@@ -231,6 +242,8 @@ nav {
   font-size: 80px;
   text-transform: capitalize;
   margin-bottom: 20px;
+  flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .our-msg h6 {
@@ -239,6 +252,11 @@ nav {
   text-transform: capitalize;
   margin-bottom: 27px;
   letter-spacing: 3px;
+  flex: 1 0 auto;
+}
+
+.our-msg p {
+  flex: 1 0 auto;
 }
 
 span {
@@ -259,6 +277,7 @@ span a:hover {
   letter-spacing: 3px;
   line-height: 30px;
   font-size: 20px;
+  flex: 1 0 auto;
 }
 
 .main {
@@ -278,7 +297,6 @@ details summary h2 {
 
 }
 
-
 details summary:hover {
   background-color: goldenrod;
 }
@@ -287,7 +305,19 @@ details summary:hover {
   letter-spacing: 3px;
   line-height: 30px;
   font-size: 20px;
+  flex: 1 0 auto;
 }
+
+@media screen and (min-width: 1024px) {
+  .intro img {
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    padding: 0px
+    
+  }
+}
+
 
 
 /* STYLE FOR 'Gallery' PAGE */
@@ -411,4 +441,3 @@ details summary:hover {
 #image-015 {
   background-image: url("Button")
 }
-
