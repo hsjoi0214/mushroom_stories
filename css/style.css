@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-/* STYLE FOR 'HOME & CONTACT' PAGE */
+/* STYLE FOR 'HOME PAGE */
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +14,7 @@ body {
   font-family: 'Abril Fatface';
 }
 
-
 .home-header {
-  font-size: 20px;
   margin: 0 auto;
   background-color: #F2F5DE;
   padding: 0 1rem;
@@ -99,6 +97,7 @@ nav {
 
 .active {
   border-bottom: 1px solid #3a3a3a;
+  box-shadow: 0 0.2px 0.2px #3a3a3a;
 }
 
 
@@ -324,7 +323,6 @@ form {
 /* STYLE FOR 'About us' PAGE */
 
 .about-header {
-  font-size: 8px;
   margin: 0 auto;
   background-color: #F2F5DE;
   padding: 0 1rem;
@@ -420,7 +418,6 @@ form {
   color: antiquewhite;
   letter-spacing: 3px;
   line-height: 30px;
-  font-size: 12px;
   flex: 1 0 auto;
 }
 
@@ -453,8 +450,6 @@ details summary h2 {
   padding: 0.1rem;
   cursor: pointer;
   color: antiquewhite;
-  font-size: 12px;
-  color: antiquewhite;
 
 }
 
@@ -465,7 +460,6 @@ details summary:hover {
 .morecontent p {
   letter-spacing: 3px;
   line-height: 30px;
-  font-size: 12px;
   flex: 1 0 auto;
   color: antiquewhite;
 }
@@ -473,20 +467,20 @@ details summary:hover {
 @media screen and (min-width: 1024px) {
   .intro img {
     height: auto;
-    width: 50%;
+    width: 30%;
     display: inline-block;
     padding: 0px
   }
 }
+
 /*
 /*
 /*
 /*
 /* STYLE FOR 'Gallery' PAGE */
 .gallery-header {
-  font-size: 8px;
   margin: 0 auto;
-  background-color: #F2F5DE;
+  background-color: #BDC696;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -529,15 +523,15 @@ details summary:hover {
   color: black;
   font-size: 30px;
   text-transform: capitalize;
-  margin-top: 10%;
+  margin-top: 30%;
   letter-spacing: 4px;
   flex: 1 0 auto;
-  
+
 }
 
 .navselector {
   position: absolute;
-  background-color: #ffffff;
+  background-color: #BDC696;
   width: 100%;
   left: 0;
   padding: 0 1rem;
@@ -559,7 +553,6 @@ details summary:hover {
 .nav-toggle-label {
   font-size: 2rem;
 }
-
 
 
 .product-catalouge {
@@ -659,6 +652,41 @@ details summary:hover {
 
 #image-016 {
   background-image: url("../assets/media/button.jpeg")
+}
+
+/* Media query:tablets and larger (768 & up) */
+
+@media screen and (min-width: 768px) {
+  .navselector {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    color: inherit;
+  }
+
+  #navmenu {
+    display: flex;
+  }
+
+  #navmenu>li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  .gallery-main h2 {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #navmenu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+  }
 }
 
 /*
