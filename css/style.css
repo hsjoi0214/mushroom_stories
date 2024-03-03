@@ -540,16 +540,17 @@ details summary:hover {
   max-width: 1200px;
   margin: auto;
   background: #f2f2f2;
-  overflow: auto;
+  overflow: hidden;
 }
 .mushroom-gallery {
-  margin: 5px;
+  margin: 2px;
   border: 1px solid #ccc;
   float: left;
   width: 100%; 
   margin-right: 3%; 
   margin-bottom: 3%; 
 }
+
 .mushroom-gallery img {
   width: 100%;
   height: auto;
@@ -557,11 +558,9 @@ details summary:hover {
 }
 
 .desc {
-  padding: 15px;
+  padding: 2px;
   text-align: center;
 }
-
-
 
 /* Media query:tablets and larger (768 & up) */
 
