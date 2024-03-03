@@ -468,6 +468,11 @@ details summary:hover {
   box-shadow: 0 2px 2px #3a3a3a;
 }
 
+.gallery-main {
+  background-color: #586F6B;
+  flex: 1 0 auto
+}
+
 .gallery-header h1 {
   font-family: 'Abril Fatface', sans-serif;
   text-transform: uppercase;
@@ -527,67 +532,67 @@ details summary:hover {
 
 /* IMAGES FOR GALLERY PAGE DEFINED BY "#"-SIGN FOR ID's */
 #image-001 {
-  background-image: url("#cordeceps")
+  background-image: url("../assets/media/cordeceps.jpg")
 }
 
 #image-002 {
-  background-image: url("Lion's Mane")
+  background-image: url("../assets/media/Lmanes.jpeg")
 }
 
 #image-003 {
-  background-image: url("Reishi")
+  background-image: url("../assets/media/reishi.jpeg")
 }
 
 #image-004 {
-  background-image: url("Turkey Tail")
+  background-image: url("../assets/media/Ttail.jpg")
 }
 
 #image-005 {
-  background-image: url("Maitake")
+  background-image: url("../assets/media/maiitake.webp")
 }
 
 #image-006 {
-  background-image: url("Black Trumpet")
+  background-image: url("../assets/media/black-trumpets.jpeg")
 }
 
 #image-007 {
-  background-image: url("Shiitake")
+  background-image: url("../assets/media/shiitake.jpg")
 }
 
 #image-008 {
-  background-image: url("Oyster")
+  background-image: url("../assets/media/oyster.jpeg")
 }
 
 #image-009 {
-  background-image: url("Porcini")
+  background-image: url("../assets/media/porchini.jpeg")
 }
 
 #image-010 {
-  background-image: url("Portobello")
+  background-image: url("../assets/media/potobello.avif")
 }
 
 #image-011 {
-  background-image: url("Chanterella")
+  background-image: url("../assets/media/chanterelle.jpeg")
 }
 
 #image-012 {
-  background-image: url("Coral")
+  background-image: url("../assets/media/coral_mushroom.jpeg")
 }
 
 #image-013 {
-  background-image: url("Enoki")
+  background-image: url("../assets/media/enoki.jpeg")
 }
 
 #image-014 {
-  background-image: url("Hedgehog")
+  background-image: url("../assets/media/hedgehog.jpeg")
 }
 
 #image-015 {
-  background-image: url("Morel")
+  background-image: url("../assets/media/morel.jpg")
 }
 
 #image-016 {
-  background-image: url("Button")
+  background-image: url("../assets/media/button.jpeg")
 }
 
 /*
