@@ -324,7 +324,7 @@ form {
 /* STYLE FOR 'About us' PAGE */
 
 .about-header {
-  font-size: 20px;
+  font-size: 8px;
   margin: 0 auto;
   background-color: #F2F5DE;
   padding: 0 1rem;
@@ -332,26 +332,54 @@ form {
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.about-main {
-  background: url(../assets/media/black02.jpeg) no-repeat center center fixed;
+.about-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
 .about-header nav li {
   list-style-type: none;
   float: left;
   position: relative;
-  top: 50px;
+  top: 25px;
 }
 
 .about-header nav li a {
   display: block;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
-  padding: 0 30px;
+  padding: 0 20px;
+}
+
+.navselector {
+  position: absolute;
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+
+}
+
+#nav-toggle:checked~nav {
+  display: block;
+}
+
+.about-main {
+  background: url(../assets/media/black02.jpeg) no-repeat center center fixed;
+  flex: 1 0 auto
 }
 
 .intro {
@@ -375,8 +403,7 @@ form {
   color: antiquewhite;
   font-size: 50px;
   text-transform: capitalize;
-  margin-bottom: 20px;
-  flex: 1 0 auto;
+  margin-bottom: 25px;
   flex: 1 0 auto;
 }
 
@@ -451,14 +478,13 @@ details summary:hover {
     padding: 0px
   }
 }
-
 /*
 /*
 /*
 /*
 /* STYLE FOR 'Gallery' PAGE */
 .gallery-header {
-  font-size: 20px;
+  font-size: 8px;
   margin: 0 auto;
   background-color: #F2F5DE;
   padding: 0 1rem;
@@ -466,11 +492,9 @@ details summary:hover {
   z-index: 99;
   width: 100%;
   box-shadow: 0 2px 2px #3a3a3a;
-}
-
-.gallery-main {
-  background-color: #586F6B;
-  flex: 1 0 auto
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .gallery-header h1 {
@@ -484,17 +508,59 @@ details summary:hover {
   list-style: none;
   float: left;
   position: relative;
-  top: 50px;
+  top: 25px;
 }
 
 .gallery-header nav li a {
-  color: inherit;
+  color: black;
   display: block;
   text-decoration: none;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0 30px;
+  padding: 0 20px;
 }
+
+.gallery-main {
+  background-color: #586F6B;
+  flex: 1 0 auto
+}
+
+.gallery-main h2 {
+  color: black;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 10%;
+  letter-spacing: 4px;
+  flex: 1 0 auto;
+  
+}
+
+.navselector {
+  position: absolute;
+  background-color: #ffffff;
+  width: 100%;
+  left: 0;
+  padding: 0 1rem;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: none;
+  top: 100%;
+
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+  display: block;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  font-size: 2rem;
+}
+
+
 
 .product-catalouge {
   width: 100%;
