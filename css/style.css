@@ -59,6 +59,7 @@ body {
   padding: 25px 0;
   display: flex;
   justify-content: space-evenly;
+  list-style-type: none;
 }
 
 nav {
@@ -125,7 +126,7 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 30px;   
+    font-size: 30px;
   }
 
   #social-network {
@@ -170,7 +171,7 @@ nav {
 
   #contact-sign {
     margin-bottom: 20%;
-    
+
   }
 
   .home-main nav li a {
@@ -535,105 +536,32 @@ details summary:hover {
   font-size: 2rem;
 }
 
-
-.product-catalouge {
-  width: 100%;
+.product-container {
+  max-width: 1200px;
+  margin: auto;
+  background: #f2f2f2;
+  overflow: auto;
+}
+.mushroom-gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
   float: left;
-  padding: 1%;
-  border-bottom: 0.01em solid #dddbdb;
+  width: 100%; 
+  margin-right: 3%; 
+  margin-bottom: 3%; 
 }
-
-.mushroom-products {
-  float: left;
-  width: 28%;
-  border-radius: 2%;
-  margin: 1%;
-}
-
-.image-box {
+.mushroom-gallery img {
   width: 100%;
-  overflow: hidden;
-  border-radius: 2% 2% 0 0;
+  height: auto;
+  max-width: 100%;
 }
 
-.images {
-  height: 15em;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border-radius: 2% 2% 0 0;
-  transition: all 1s ease;
+.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 
-.images:hover {
-  transform: scale(1.3);
-}
-
-/* IMAGES FOR GALLERY PAGE DEFINED BY "#"-SIGN FOR ID's */
-#image-001 {
-  background-image: url("../assets/media/cordeceps.jpg")
-}
-
-#image-002 {
-  background-image: url("../assets/media/Lmanes.jpeg")
-}
-
-#image-003 {
-  background-image: url("../assets/media/reishi.jpeg")
-}
-
-#image-004 {
-  background-image: url("../assets/media/Ttail.jpg")
-}
-
-#image-005 {
-  background-image: url("../assets/media/maiitake.webp")
-}
-
-#image-006 {
-  background-image: url("../assets/media/black-trumpets.jpeg")
-}
-
-#image-007 {
-  background-image: url("../assets/media/shiitake.jpg")
-}
-
-#image-008 {
-  background-image: url("../assets/media/oyster.jpeg")
-}
-
-#image-009 {
-  background-image: url("../assets/media/porchini.jpeg")
-}
-
-#image-010 {
-  background-image: url("../assets/media/potobello.avif")
-}
-
-#image-011 {
-  background-image: url("../assets/media/chanterelle.jpeg")
-}
-
-#image-012 {
-  background-image: url("../assets/media/coral_mushroom.jpeg")
-}
-
-#image-013 {
-  background-image: url("../assets/media/enoki.jpeg")
-}
-
-#image-014 {
-  background-image: url("../assets/media/hedgehog.jpeg")
-}
-
-#image-015 {
-  background-image: url("../assets/media/morel.jpg")
-}
-
-#image-016 {
-  background-image: url("../assets/media/button.jpeg")
-}
 
 /* Media query:tablets and larger (768 & up) */
 
