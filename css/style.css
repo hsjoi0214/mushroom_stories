@@ -655,9 +655,9 @@ details summary:hover {
   text-align: center;
 }
 
-.learnmore-main h5 {
+.learnmore-main p {
   color: darkred;
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 2px;
   flex: 1 0 auto;
   text-align: center;
@@ -673,27 +673,14 @@ details summary:hover {
   padding: 4%;
 }
 
-.learnmore-main h4 {
-  color: black;
-  letter-spacing: 3px;
-  text-transform: capitalize;
-  padding: 3%;
+.learnmore-main h5 ul li {
+margin-left: 3%;
 }
 
-.learnmore-main p {
-  color: black;
-  letter-spacing: 2px;
-  font-size: 60%;
-  padding-top: 1%;  
-}
+.learnmore-main h5 ul li span {
+  font-size: 100%;
+  color: blueviolet;
+  }
 
-.learnlabel {
-  color: black;
-  font-size: 80%;
-}
 
-.learncontent {
-  color: green;
-  font-size: 60%;
-}
 
