@@ -246,6 +246,40 @@ nav {
   }
 }
 
+/* Responsive for screen-size=>1280px */
+@media only screen and (min-width: 1280px) {
+  #index-sign,
+  #about-sign {
+    top: 380px;
+  }
+
+  #gallery-sign,
+  #learn-sign {
+    top: 340px;
+  }
+
+  #contact-sign {
+    margin-bottom: 10%;
+
+  }
+
+  .home-main nav li a {
+    font-size: 38px;
+  }
+
+  #social-network {
+    padding: 35px 0;
+  }
+
+  #about-sign {
+    padding-top: 4%;
+  }
+
+  #learn-sign {
+    padding-top: 4%;
+  }
+}
+
 /*
 /*
 /*
