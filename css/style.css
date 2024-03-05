@@ -675,12 +675,18 @@ details summary:hover {
 
 .learnmore-main h5 ul li {
 margin-left: 3%;
+font-size: 90%;
+padding-bottom: 2%;
 }
 
 .learnmore-main h5 ul li span {
   font-size: 100%;
-  color: blueviolet;
+  color: darkslateblue;
   }
 
+ .learnmore-main h4 {
+  color: black;
+ }
 
 
+  
