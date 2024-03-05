@@ -107,45 +107,48 @@ nav {
 
 }
 
+#remove-pt {
+  list-style-type: none;
+}
+
 #index-sign,
 #about-sign {
-  list-style-type: none;
   float: left;
   position: relative;
   top: 300px;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
+  
 }
 
 #gallery-sign,
 #learn-sign {
-  list-style-type: none;
   float: right;
   position: relative;
-  top: 215px;
-  letter-spacing: 4px;
+  top: 259px;
+  letter-spacing: 6px;
+  
 }
 
 #contact-sign {
-  list-style-type: none;
   text-align: center;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 30%;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
+  padding: 3%;
 
 }
 
 .active {
   border-bottom: 1px solid #3a3a3a;
-  box-shadow: 0 0.2px 0.2px #3a3a3a;
+  
 }
 
 
 /* Responsive design for screen-size=>768px */
 @media screen and (min-width: 768px) {
-
   #index-sign,
   #about-sign {
     top: 450px;
@@ -153,7 +156,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 370px;
+    top: 410px;
   }
 
   #contact-sign {
@@ -161,12 +164,21 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 30px;
+    font-size: 30px; 
   }
 
   #social-network {
     padding: 30px 0;
   }
+
+  #about-sign {
+    padding-top: 4%;
+  }
+
+  #learn-sign {
+    padding-top: 4%;
+  }
+
 }
 
 /* Responsive for screen-size=>820px */
@@ -179,15 +191,23 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 450px;
+    top: 490px; 
   }
 
   #contact-sign {
-    margin-bottom: 20%;
+    margin-bottom: 20%;  
   }
 
   .home-main nav li a {
     font-size: 35px;
+  }
+
+  #about-sign {
+    padding-top: 4%;
+  }
+
+  #learn-sign {
+    padding-top: 4%;
   }
 }
 
@@ -201,7 +221,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 490px;
+    top: 550px;
   }
 
   #contact-sign {
@@ -210,11 +230,19 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 35px;
+    font-size: 38px;
   }
 
   #social-network {
     padding: 35px 0;
+  }
+
+  #about-sign {
+    padding-top: 4%;
+  }
+
+  #learn-sign {
+    padding-top: 4%;
   }
 }
 
@@ -543,13 +571,14 @@ details summary:hover {
   background: #f2f2f2;
   overflow: hidden;
 }
+
 .mushroom-gallery {
   margin: 2px;
   border: 1px solid #ccc;
   float: left;
-  width: 100%; 
-  margin-right: 3%; 
-  margin-bottom: 3%; 
+  width: 100%;
+  margin-right: 3%;
+  margin-bottom: 3%;
 }
 
 .mushroom-gallery img {
@@ -674,19 +703,16 @@ details summary:hover {
 }
 
 .learnmore-main h5 ul li {
-margin-left: 3%;
-font-size: 90%;
-padding-bottom: 2%;
+  margin-left: 3%;
+  font-size: 90%;
+  padding-bottom: 2%;
 }
 
 .learnmore-main h5 ul li span {
   font-size: 100%;
   color: darkslateblue;
-  }
+}
 
- .learnmore-main h4 {
+.learnmore-main h4 {
   color: black;
- }
-
-
-  
+}
