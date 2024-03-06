@@ -16,6 +16,7 @@ body {
 
 }
 
+/* BEFORE: Media query:tablets and larger (768 & up) */
 .navselector {
   position: absolute;
   background-color: #ffffff;
@@ -50,7 +51,34 @@ body {
   font-size: 2rem;
 }
 
+/* AFTER: Media query:tablets and larger (768 & up) */
+@media screen and (min-width: 768px) {
+  .navselector {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    color: inherit;
+  }
 
+  #navmenu {
+    display: flex;
+  }
+
+  #navmenu>li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+}
+
+/*
+/*
+/*
+/*
 /* STYLE FOR 'HOME PAGE */
 .home-header {
   margin: 0 auto;
@@ -279,6 +307,7 @@ nav {
     padding-top: 4%;
   }
 }
+
 /*
 /*
 /*
@@ -415,174 +444,176 @@ textarea {
     padding: 4px;
   }
 }
-  /* Media query:tablets and larger (820 & up) */
-  @media screen and (min-width: 820px) {
-    .contactus-header h1 {
-      letter-spacing: 2px;
-      font-size: 35px;
-      padding-bottom: 2%;
-    }
-  
-    .contactus-main h2 {
-      font-size: 25px;
-      margin-top: 20%;
-      letter-spacing: 6px;
-    }
-  
-    .contactus-main fieldset { 
-      letter-spacing: 4px;
-      font-size: 80%;
-      padding: 4%;
-    }
-  
-    .contactus-main fieldset legend {
-      letter-spacing: 4px;
-      font-size: 125%;
-      padding: 0.1%;
-    }
-  
-    #submit {
-      font-size: 18px
-    }
-  
-    input[type="reset"i] {
-      padding: 4px;
-    }
+
+/* Media query:tablets and larger (820 & up) */
+@media screen and (min-width: 820px) {
+  .contactus-header h1 {
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding-bottom: 2%;
   }
+
+  .contactus-main h2 {
+    font-size: 25px;
+    margin-top: 20%;
+    letter-spacing: 6px;
+  }
+
+  .contactus-main fieldset {
+    letter-spacing: 4px;
+    font-size: 80%;
+    padding: 4%;
+  }
+
+  .contactus-main fieldset legend {
+    letter-spacing: 4px;
+    font-size: 125%;
+    padding: 0.1%;
+  }
+
+  #submit {
+    font-size: 18px
+  }
+
+  input[type="reset"i] {
+    padding: 4px;
+  }
+}
+
 /*
 /*
 /*
 /*
 /* STYLE FOR 'About us' PAGE */
 
-  .about-header {
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+.about-header {
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
-  .about-header h1 {
-    font-family: 'Abril Fatface', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-  }
+.about-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
 
-  .about-header nav li {
-    list-style-type: none;
-    float: left;
-    position: relative;
-    top: 25px;
-  }
+.about-header nav li {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  top: 25px;
+}
 
-  .about-header nav li a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 7px;
-  }
+.about-header nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 7px;
+}
 
-  .about-main {
-    background-color: lightblue;
-    flex: 1 0 auto
-  }
+.about-main {
+  background-color: lightblue;
+  flex: 1 0 auto
+}
 
-  .intro {
-    width: 100%;
-    padding: 70px 0px;
-  }
+.intro {
+  width: 100%;
+  padding: 70px 0px;
+}
 
-  .intro img {
-    height: auto;
-    width: 500px; 
-    display: none;
-  }
+.intro img {
+  height: auto;
+  width: 500px;
+  display: none;
+}
 
-  .our-msg {
-    width: 580px;
-  }
+.our-msg {
+  width: 580px;
+}
 
-  .our-msg h2 {
-    color: antiquewhite;
-    font-size: 40px;
-    margin-top: 1%;
-    letter-spacing: 4px;
-    flex: 1 0 auto;
-    text-align: center;
-    padding: 1%;
-  }
+.our-msg h2 {
+  color: antiquewhite;
+  font-size: 40px;
+  margin-top: 1%;
+  letter-spacing: 4px;
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 1%;
+}
 
-  .our-msg h6 {
-    color: antiquewhite;
-    font-size: 14px;
-    text-transform: capitalize;
-    margin-bottom: 27px;
-    letter-spacing: 2px;
-    flex: 1 0 auto;
-    text-align: center;
-  }
+.our-msg h6 {
+  color: antiquewhite;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-bottom: 27px;
+  letter-spacing: 2px;
+  flex: 1 0 auto;
+  text-align: center;
+}
 
-  .our-msg p {
-    color: black;
-    letter-spacing: 1px;
-    line-height: 180%;
-    flex: 1 0 auto;
-    font-size: 70%;
-  }
+.our-msg p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 180%;
+  flex: 1 0 auto;
+  font-size: 70%;
+}
 
-  span {
-    color: red;
-  }
+span {
+  color: red;
+}
 
-  span a {
-    color: goldenrod;
-  }
+span a {
+  color: goldenrod;
+}
 
-  span a:hover {
-    color: antiquewhite;
-    cursor: pointer;
-  }
+span a:hover {
+  color: antiquewhite;
+  cursor: pointer;
+}
 
-  .main {
-    width: 1200px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.main {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  details summary h4 {
-    text-align: center;
-    justify-content: center;
-    padding: 0.1rem;
-    cursor: pointer;
-    color: antiquewhite;
-  }
+details summary h4 {
+  text-align: center;
+  justify-content: center;
+  padding: 0.1rem;
+  cursor: pointer;
+  color: antiquewhite;
+}
 
-  details summary:hover {
-    background-color: goldenrod;
-  }
+details summary:hover {
+  background-color: goldenrod;
+}
 
-  .morecontent p {
-    color: black;
-    letter-spacing: 1px;
-    line-height: 180%;
-    flex: 1 0 auto;
-    font-size: 70%;
-    padding: 3%;
-  }
+.morecontent p {
+  color: black;
+  letter-spacing: 1px;
+  line-height: 180%;
+  flex: 1 0 auto;
+  font-size: 70%;
+  padding: 3%;
+}
 
-  /* Media query:tablets and larger (768 & up) */
+/* Media query:tablets and larger (768 & up) */
 @media screen and (min-width: 768px) {
   .about-header h1 {
     letter-spacing: 2px;
@@ -664,204 +695,248 @@ textarea {
     font-size: 180%;
   }
 }
+
 /*
 /*
 /*
 /*
 /* STYLE FOR 'Gallery' PAGE */
-  .gallery-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+.gallery-header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
+.gallery-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
+.gallery-header nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 25px;
+}
+
+.gallery-header nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 7px;
+}
+
+.gallery-main {
+  background-color: lightblue;
+  flex: 1 0 auto
+}
+
+.gallery-main h2 {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 25%;
+  letter-spacing: 4px;
+  flex: 1 0 auto;
+  text-align: center;
+
+}
+
+.product-container {
+  max-width: 1200px;
+  margin: auto;
+  background: #f2f2f2;
+  overflow: hidden;
+}
+
+.mushroom-gallery {
+  margin: 2px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 100%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.mushroom-gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.desc {
+  padding: 1px;
+  text-align: center;
+}
+
+.desc a {
+  font-size: 100%;
+  list-style-type: none;
+}
+
+a:-webkit-any-link {
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Media query:tablets and larger (768 & up) */
+@media screen and (min-width: 768px) {
   .gallery-header h1 {
-    font-family: 'Abril Fatface', sans-serif;
-    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 2%;
     letter-spacing: 2px;
-    color: #252525;
-  }
-
-  .gallery-header nav li {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 25px;
-  }
-
-  .gallery-header nav li a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 20px;
-  }
-
-  .gallery-main {
-    background-color: lightblue;
-    flex: 1 0 auto
   }
 
   .gallery-main h2 {
-    color: black;
-    font-size: 30px;
-    text-transform: capitalize;
-    margin-top: 30%;
-    letter-spacing: 4px;
-    flex: 1 0 auto;
-    text-align: center;
-
+    font-size: 28px;
+    margin-top: 20%;
+    letter-spacing: 6px;
+    margin: 148px 0px 0px;
   }
 
-  .product-container {
-    max-width: 1200px;
-    margin: auto;
-    background: #f2f2f2;
-    overflow: hidden;
+  .desc a {
+    font-size: 12%;
+    list-style-type: none;
   }
+}
 
-  .mushroom-gallery {
-    margin: 2px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 100%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-  }
 
-  .mushroom-gallery img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
 
-  .desc {
-    padding: 2px;
-    text-align: center;
-  }
-
-  /* Media query:tablets and larger (768 & up) */
-
-  @media screen and (min-width: 768px) {
-    .navselector {
-      display: block;
-      position: relative;
-      box-shadow: none;
-      width: fit-content;
-      padding-right: 1rem;
-      color: inherit;
-    }
-
-    #navmenu {
-      display: flex;
-    }
-
-    #navmenu>li {
-      padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-      display: none;
-    }
-
-    .gallery-main h2 {
-      margin-top: 10%;
-      font-size: 40px;
-      padding: 2%;
-    }
-  }
-
-  @media screen and (min-width: 992px) {
-    #navmenu a:hover {
-      border-bottom: 1px solid #3a3a3a;
-    }
-  }
-
-  /*
+/*
 /*
 /*
 /*
 /* STYLE FOR 'learn more' PAGE */
-  .learnmore-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+.learnmore-header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
 
+.learnmore-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
+.learnmore-header nav li {
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 25px;
+}
+
+.learnmore-header nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 7px;
+}
+
+.learnmore-main {
+  background-color: lightblue;
+  flex: 1 0 auto
+}
+
+.learnmore-main h2 {
+  color: green;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-top: 25%;
+  letter-spacing: 4px;
+  flex: 1 0 auto;
+  text-align: center;
+}
+
+.learnmore-main p {
+  color: darkred;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  flex: 1 0 auto;
+  text-align: center;
+  padding-top: 4%;
+  line-height: 170%;
+  font-size: 80%;
+}
+
+.learnmore-main h3 {
+  color: darkgoldenrod;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 4%;
+  border-top: 1px solid #ddd;
+}
+
+.learnmore-main h5 ul li {
+  margin-left: 3%;
+  font-size: 90%;
+  padding-bottom: 2%;
+  line-height: 170%;
+}
+
+.learnmore-main h5 ul li span {
+  font-size: 100%;
+  color: darkslateblue;
+}
+
+.learnmore-main h4 {
+  color: black;
+}
+
+/* Media query:tablets and larger (768 & up) */
+@media screen and (min-width: 768px) {
   .learnmore-header h1 {
-    font-family: 'Abril Fatface', sans-serif;
-    text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525;
-  }
-
-  .learnmore-header nav li {
-    list-style: none;
-    float: left;
-    position: relative;
-    top: 25px;
-  }
-
-  .learnmore-header nav li a {
-    color: black;
-    display: block;
-    text-decoration: none;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 20px;
-  }
-
-  .learnmore-main {
-    background-color: lightblue;
-    flex: 1 0 auto
+    font-size: 35px;
+    padding-bottom: 2%;
   }
 
   .learnmore-main h2 {
-    color: green;
-    font-size: 25px;
-    text-transform: capitalize;
-    margin-top: 25%;
-    letter-spacing: 4px;
-    flex: 1 0 auto;
-    text-align: center;
+    font-size: 40px;
+    margin-top: 20%;
+    letter-spacing: 6px;
   }
 
   .learnmore-main p {
-    color: darkred;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    flex: 1 0 auto;
-    text-align: center;
-    padding-top: 4%;
+    letter-spacing: 4px;
+    padding-top: 6%;
+    line-height: 220%;
+    font-size: 100%;
   }
 
   .learnmore-main h3 {
-    color: darkgoldenrod;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    flex: 1 0 auto;
-    text-align: center;
+    letter-spacing: 4px;
     padding: 4%;
     border-top: 1px solid #ddd;
+    font-size: 30px;
   }
 
   .learnmore-main h5 ul li {
-    margin-left: 3%;
-    font-size: 90%;
+    font-size: 130%;
     padding-bottom: 2%;
+    line-height: 170%;
   }
 
   .learnmore-main h5 ul li span {
@@ -871,4 +946,51 @@ textarea {
 
   .learnmore-main h4 {
     color: black;
+    font-size: 132%;
   }
+}
+
+/* Media query:tablets and larger (1024 & up) */
+@media screen and (min-width: 1024px) {
+  .learnmore-header h1 {
+    letter-spacing: 2px;
+    font-size: 45px;
+    padding-bottom: 2%;
+  }
+
+  .learnmore-main h2 {
+    font-size: 60px;
+    margin-top: 20%;
+    letter-spacing: 6px;
+  }
+
+  .learnmore-main p {
+    letter-spacing: 4px;
+    padding-top: 6%;
+    line-height: 240%;
+    font-size: 140%;
+  }
+
+  .learnmore-main h3 {
+    letter-spacing: 6px;
+    padding: 4%;
+    border-top: 1px solid #ddd;
+    font-size: 40px;
+  }
+
+  .learnmore-main h5 ul li {
+    font-size: 200%;
+    padding-bottom: 2%;
+    line-height: 190%;
+  }
+
+  .learnmore-main h5 ul li span {
+    font-size: 120%;
+    color: darkslateblue;
+  }
+
+  .learnmore-main h4 {
+    color: black;
+    font-size: 172%;
+  }
+}
