@@ -15,113 +15,96 @@
     <input type="checkbox" id="nav-toggle" name="nav-toggle">
     <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
     <nav class="navselector">
-        <ul id="navmenu">
-            <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
-            <li><a href="about.html" aria-label="Go to the about page">About</a></li>
-            <li><a href="gallery.html" aria-label="Go to the gallery page">Gallery</a></li>
-            <li><a href="learn.html" aria-label="Go to the learnpage">Learn</a></li>
-            <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
-        </ul>
+      <ul id="navmenu">
+        <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
+        <li><a href="about.html" aria-label="Go to the about page">About</a></li>
+        <li><a href="gallery.html" aria-label="Go to the gallery page">Gallery</a></li>
+        <li><a href="learn.html" aria-label="Go to the learnpage">Learn</a></li>
+        <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
+      </ul>
     </nav>
-</header>
-<main class="contactus-main">
-  <h2>Give us a feedback!</h2><br>
-  <article>
-    <form action="https://formdump.codeinstitute.net" method="POST">
-      <section>
-        <fieldset>
-          <legend>Your details</legend>
-          <div class="name_email-field">
-            <label for="name-field">Name:</label>
-            <input id="name-field" type="text" name="full_name" placeholder="Please enter Your name" required>
-          </div>
+  </header>
+  <main class="contactus-main">
+    <h2>Give us a feedback!</h2><br>
+    <article>
+      <form action="https://formdump.codeinstitute.net" method="POST">
+        <section>
+          <fieldset>
+            <legend>Your details</legend><br>
+            <div class="name_email-field">
+              <label for="name-field">Name:</label>
+              <input id="name-field" type="text" name="full_name" placeholder="Please enter Your name" required>
+            </div>
 
-          <div class="name_email-field">
-            <label for="email-field">Email:</label>
-            <input id="email-field" type="email" name="email" placeholder="Please enter Your email" required>
-          </div>
-        </fieldset>
-      </section>
+            <div class="name_email-field">
+              <label for="email-field">Email:</label>
+              <input id="email-field" type="email" name="email" placeholder="Please enter Your email" required>
+            </div>
+          </fieldset>
+        </section>
 
-      <br>
-      <br>
-
-      <section>
-        <fieldset>
-          <legend>Tell us more about your mushroom experience</legend>
-          <div>
-            <label for="fav-mushroom"><strong>Your favorite mushroom?</strong></label>
-            <input id=" fav-mushroom" list="mushrooms" name="fav-mushroom">
-            <datalist id="mushrooms">
-              <option value="Turkey Tail">
-              <option value="Cordeceps">
-              <option value="Lion's Mane">
-              <option value="Reishi">
-              <option value="Turkey Tail">
-              <option value="Maitake">
-            </datalist>
-          </div>
-
-          <div>
-            <p><strong>How often do you buy mushroom products?</strong></p><br>
-
-            <input id="once-in-two" name="visit-frequency" value="once-in-two" type="radio">
-            <label for="once-in-two">Once in two weeks</label>
-
-            <input id="once-a-three" name="visit-frequency" value="once-a-three" type="radio">
-            <label for="once-a-three">Once a three weeks</label>
-
-            <input id="not-often" name="visit-frequency" value="not-often" type="radio">
-            <label for="not-often">Not often</label>
-          </div>
-
-          <div>
-            <p><strong>Which supplementary mushrooms products do you enjoy?</strong></p>
-          </div>
-          <div>
-            <input type="checkbox" id="chagatea-checkbox" name="chagatea">
-            <label for="brownies-checkbox">Chaga Tea</label>
-          </div>
-          <div>
-            <input type="checkbox" id="Lionsmanecapsule-checkbox" name="Lionsmanecapsule">
-            <label for="Lionsmanecapsule-checkbox">Lion's mane capsule</label>
-          </div>
-          <div>
-            <input type="checkbox" id="Lionsmanepowder-checkbox" name="Lionsmanepowder">
-            <label for="Lionsmanepowder-checkbox">Lionsmane powder</label>
-          </div>
-
-        </fieldset>
-      </section>
-
-      <br>
-
-      <section>
-        <fieldset>
-          <legend>Feedback</legend><br>
-          <textarea id="feedback" name="feedback" rows="5" cols="46"
-            placeholder="Give us your feedback or write us a message!" required></textarea>
-        </fieldset>
         <br>
-        <button type="submit">
-          <strong>Send</strong>
-        </button>
-        <input type="reset" value="Reset Form">
-      </section>
-    </form>
-  </article>
-</main>
-<footer>
-  <ul id="social-network">
-    <li><a href="www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page"></a><i
-        class="fa-brands fa-facebook"></i></li>
-    <li><a href="www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"></a><i
-        class="fa-brands fa-square-x-twitter"></i></li>
-    <li><a href="www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page"></a><i
-        class="fa-brands fa-youtube"></i></li>
-    <li><a href="www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"></a><i
-        class="fa-brands fa-square-instagram"></i></li>
-  </ul>
-</footer>
-<script src="https://kit.fontawesome.com/0bfd4888d3.js" crossorigin="anonymous"></script>
+        <br>
+
+        <section>
+          <fieldset>
+            <legend>Tell us more about your mushroom experience</legend><br>
+            <div>
+              <label for="fav-mushroom"><strong>Your favorite mushroom?</strong></label>
+              <input id=" fav-mushroom" list="mushrooms" name="fav-mushroom">
+              <datalist id="mushrooms">
+                <option value="Turkey Tail">
+                <option value="Cordeceps">
+                <option value="Lion's Mane">
+                <option value="Reishi">
+                <option value="Turkey Tail">
+                <option value="Maitake">
+              </datalist>
+            </div>
+
+            <div>
+              <br><br><p><strong>How often do you buy mushroom products?</strong></p><br>
+
+              <input id="once-in-two" name="visit-frequency" value="once-in-two" type="radio">
+              <label for="once-in-two">Once in two weeks</label>
+
+              <input id="once-a-three" name="visit-frequency" value="once-a-three" type="radio">
+              <label for="once-a-three">Once a three weeks</label>
+
+              <input id="not-often" name="visit-frequency" value="not-often" type="radio">
+              <label for="not-often">Not often</label>
+            </div>
+          </fieldset>
+        </section>
+
+        <br><br>
+
+        <section>
+          <fieldset>
+            <legend>Feedback</legend><br>
+            <textarea id="feedback" name="feedback"
+              placeholder="Give us your feedback or write us a message!" required></textarea>
+          </fieldset>
+          <br>
+          <button type="submit">
+            <strong id="submit">Send</strong>
+          </button>
+          <input type="reset" value="Reset Form" id="resetbtn">
+        </section>
+      </form>
+    </article>
+  </main>
+  <footer>
+    <ul id="social-network">
+      <li><a href="www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page"></a><i
+          class="fa-brands fa-facebook"></i></li>
+      <li><a href="www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"></a><i
+          class="fa-brands fa-square-x-twitter"></i></li>
+      <li><a href="www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page"></a><i
+          class="fa-brands fa-youtube"></i></li>
+      <li><a href="www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"></a><i
+          class="fa-brands fa-square-instagram"></i></li>
+    </ul>
+  </footer>
+  <script src="https://kit.fontawesome.com/0bfd4888d3.js" crossorigin="anonymous"></script>
 </body>
