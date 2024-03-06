@@ -7,40 +7,26 @@
   <title>A Boring Mushroom Company</title>
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <style>
-    body>footer {
-      text-align: center;
-      font-weight: bolder;
-      padding: 3px;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-
-    }
-  </style>
-
 </head>
 
-<body class="contact02">
-  <header>
-    <h1>CONTACT US</h1>
-    <p>Write us a message or give us feedback!</p>
-  </header>
-  <br>
-  <nav>
-    <ul>
-      <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
-      <li><a href="about.html" aria-label="Go to about page">About</a></li>
-      <li><a href="gallery.html" aria-label="Go to gallery page">Gallery</a></li>
-      <li><a href="learn.html" aria-label="Go to gallery page">Learn</a></li>
-      <li><a href="contact.html" aria-label="Go to contact page" class="active">Contact</a></li>
-    </ul>
-  </nav>
-  <br>
-  <br>
-  <br>
+<body>
+  <header class="contactus-header">
+    <h1 id="logo">The Boring Mushrooms</h1>
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav class="navselector">
+        <ul id="navmenu">
+            <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
+            <li><a href="about.html" aria-label="Go to the about page">About</a></li>
+            <li><a href="gallery.html" aria-label="Go to the gallery page">Gallery</a></li>
+            <li><a href="learn.html" aria-label="Go to the learnpage">Learn</a></li>
+            <li><a href="contact.html" aria-label="Go to the contact page" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contactus-main">
+  <h2>Give us a feedback!</h2><br>
   <article>
     <form action="https://formdump.codeinstitute.net" method="POST">
       <section>
@@ -114,7 +100,7 @@
       <section>
         <fieldset>
           <legend>Feedback</legend><br>
-          <textarea id="feedback" rows="4" cols="77" name="feedback"
+          <textarea id="feedback" name="feedback" rows="5" cols="46"
             placeholder="Give us your feedback or write us a message!" required></textarea>
         </fieldset>
         <br>
@@ -125,16 +111,18 @@
       </section>
     </form>
   </article>
-  <footer>
-    <ul>
-      <li><a href="www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page"></a><i
-          class="fa-brands fa-facebook"></i></li>
-      <li><a href="www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"></a><i
-          class="fa-brands fa-square-x-twitter"></i></li>
-      <li><a href="www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page"></a><i
-          class="fa-brands fa-youtube"></i></li>
-      <li><a href="www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"></a><i
-          class="fa-brands fa-square-instagram"></i></li>
-    </ul>
-  </footer>
+</main>
+<footer>
+  <ul id="social-network">
+    <li><a href="www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our facebook page"></a><i
+        class="fa-brands fa-facebook"></i></li>
+    <li><a href="www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"></a><i
+        class="fa-brands fa-square-x-twitter"></i></li>
+    <li><a href="www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page"></a><i
+        class="fa-brands fa-youtube"></i></li>
+    <li><a href="www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"></a><i
+        class="fa-brands fa-square-instagram"></i></li>
+  </ul>
+</footer>
+<script src="https://kit.fontawesome.com/0bfd4888d3.js" crossorigin="anonymous"></script>
 </body>

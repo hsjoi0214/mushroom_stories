@@ -285,71 +285,82 @@ nav {
 /*
 /*
 /* STYLE FOR 'CONTACT' PAGE */
-.contact02 {
-  background: url(../assets/media/black02.jpeg) no-repeat center center fixed;
-  color: antiquewhite;
+.contactus-header {
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.contact02 header {
-  margin: 10px auto;
-  padding: 10px;
-  text-align: center;
+.contactus-header h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
 }
 
-.contact02 nav li {
+.contactus-header nav li {
   list-style: none;
   float: left;
   position: relative;
-  top: 50px;
+  top: 25px;
 }
 
-.contact02 nav li a {
+.contactus-header nav li a {
+  color: black;
   display: block;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  color: antiquewhite;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
-ul li a:hover {
-  color: goldenrod;
-
+.contactus-main {
+  background-color: lightblue;
+  flex: 1 0 auto
 }
 
-ul li a i:hover {
-  color: goldenrod;
-
-}
-
-div {
-  margin: 10px auto;
-  padding: 10px;
+.contactus-main h2 {
+  color: green;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-top: 25%;
+  letter-spacing: 4px;
+  flex: 1 0 auto;
   text-align: center;
 }
 
-
-fieldset div {
-  text-align: left;
+.contactus-main fieldset {
+  font-family: 'Abril Fatface', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+  font-size: 50%;
 }
 
-fieldset p {
+
+div {
+  margin: 10px auto;
+  padding: 5px;
   text-align: left;
 }
 
 .feedback textarea {
   display: block;
-  width: 100%;
   box-sizing: border-box;
-  resize: none;
-
+  resize: none; 
 }
+
 
 form {
   margin: 0;
   padding: 10;
 }
-
 
 .name_email-field input[type=text] {
   width: 100%;
