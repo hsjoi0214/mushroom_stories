@@ -344,6 +344,7 @@ nav {
 }
 
 
+
 div {
   margin: 10px auto;
   padding: 5px;
@@ -354,6 +355,7 @@ div {
   display: block;
   box-sizing: border-box;
   resize: none; 
+  width: 100%;
 }
 
 
@@ -462,13 +464,13 @@ form {
 
 .intro {
   width: 100%;
-  padding: 80px 0px;
+  padding: 70px 0px;
 
 }
 
 .intro img {
   height: auto;
-  width: 490px;
+  width: 500px;
   display: none;
 }
 
@@ -479,31 +481,34 @@ form {
 
 .our-msg h2 {
   color: antiquewhite;
-  font-size: 50px;
-  margin-top: 10%;
+  font-size: 40px;
+  margin-top: 1%;
   letter-spacing: 4px;
   flex: 1 0 auto;
   text-align: center;
+  padding: 1%;
 }
 
 .our-msg h6 {
   color: antiquewhite;
-  font-size: 15px;
+  font-size: 14px;
   text-transform: capitalize;
   margin-bottom: 27px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   flex: 1 0 auto;
+  text-align: center;
 }
 
 .our-msg p {
   color: black;
-  letter-spacing: 3px;
-  line-height: 30px;
+  letter-spacing: 1px;
+  line-height: 150%;
   flex: 1 0 auto;
+  font-size: 14px;
 }
 
 span {
-  color: goldenrod;
+  color: red;
 }
 
 span a {
@@ -515,7 +520,6 @@ span a:hover {
   cursor: pointer;
 }
 
-
 .main {
   width: 1200px;
   max-width: 95%;
@@ -525,13 +529,12 @@ span a:hover {
   justify-content: space-between;
 }
 
-details summary h2 {
+details summary h4 {
   text-align: center;
   justify-content: center;
   padding: 0.1rem;
   cursor: pointer;
   color: antiquewhite;
-
 }
 
 details summary:hover {
@@ -539,19 +542,14 @@ details summary:hover {
 }
 
 .morecontent p {
-  letter-spacing: 3px;
-  line-height: 30px;
-  flex: 1 0 auto;
   color: black;
-}
-
-@media screen and (min-width: 1024px) {
-  .intro img {
-    height: auto;
-    width: 30%;
-    display: inline-block;
-    padding: 0px
-  }
+  letter-spacing: 1px;
+  line-height: 150%;
+  flex: 1 0 auto;
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  padding: 3%;
 }
 
 /*
