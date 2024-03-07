@@ -82,7 +82,7 @@ body {
 /* STYLE FOR 'HOME PAGE */
 .home-header {
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -90,10 +90,16 @@ body {
   box-shadow: 0 2px 2px #3a3a3a;
 }
 
+.logo {
+  width: 85px;
+  float: right;
+  padding: 2%;
+  margin: 2%;
+}
+
 .home-header a {
   text-decoration: none;
   color: inherit;
-
 }
 
 .home-header h1 {
@@ -101,25 +107,33 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #252525;
+  font-size: 32px;
 }
 
 .home-main {
-  background: lightblue;
-  flex: 1 0 auto
+  background: url(../assets/media/trial07.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1 0 auto;
 }
 
 .home-main nav li a {
   display: block;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #C39A3C;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.home-main nav li:hover a {
   color: antiquewhite;
-  padding: 0 30px;
 }
 
 #social-network {
   text-align: center;
-  padding: 25px 0;
+  padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -132,7 +146,6 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 0.2rem;
-
 }
 
 #remove-pt {
@@ -145,7 +158,6 @@ nav {
   position: relative;
   top: 300px;
   letter-spacing: 6px;
-
 }
 
 #gallery-sign,
@@ -154,7 +166,6 @@ nav {
   position: relative;
   top: 259px;
   letter-spacing: 6px;
-
 }
 
 #contact-sign {
@@ -166,11 +177,17 @@ nav {
   margin-bottom: 30%;
   letter-spacing: 6px;
   padding: 3%;
-
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #C39A3C;
+  transition: border-bottom-color 0.3s;
+}
+
+.active:hover {
+  border-bottom-color: antiquewhite;
+  /* Change color on hover */
+  transition: border-bottom-color 0.3s;
 }
 
 
@@ -206,6 +223,20 @@ nav {
   #learn-sign {
     padding-top: 4%;
   }
+
+  .logo {
+    width: 130px;
+    float: right;
+    padding: 1%;
+    margin: 2%;
+  }
+
+  .home-header h1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 48px;
+  }
+
 }
 
 /* Responsive for screen-size=>820px */
@@ -271,6 +302,19 @@ nav {
   #learn-sign {
     padding-top: 4%;
   }
+
+  .home-header h1 {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 60px;
+  }
+
+  .logo {
+    width: 160px;
+    float: right;
+    padding: 1%;
+    margin: 2%;
+  }
 }
 
 /* Responsive for screen-size=>1280px */
@@ -306,6 +350,7 @@ nav {
   #learn-sign {
     padding-top: 4%;
   }
+
 }
 
 /*
