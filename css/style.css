@@ -11,15 +11,32 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  font-family: 'Abril Fatface';
+  font-family: sans-serif;
   color: #3a3a3a;
+}
 
+.active {
+  border-bottom: 1px solid #C39A3C;
+  transition: border-bottom-color 0.5s;
+}
+
+.active:hover {
+  border-bottom-color: antiquewhite;
+  transition: border-bottom-color 0.5s;
+}
+
+#social-network {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
 
 /* BEFORE: Media query:tablets and larger (768 & up) */
 .navselector {
   position: absolute;
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   width: 100%;
   left: 100;
   padding: 0 1rem;
@@ -74,7 +91,6 @@ body {
     display: none;
   }
 }
-
 /*
 /*
 /*
@@ -131,14 +147,6 @@ body {
   color: antiquewhite;
 }
 
-#social-network {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
 nav {
   height: 100px;
   width: 100%;
@@ -164,7 +172,7 @@ nav {
 #learn-sign {
   float: right;
   position: relative;
-  top: 259px;
+  top: 268px;
   letter-spacing: 6px;
 }
 
@@ -179,18 +187,6 @@ nav {
   padding: 3%;
 }
 
-.active {
-  border-bottom: 1px solid #C39A3C;
-  transition: border-bottom-color 0.3s;
-}
-
-.active:hover {
-  border-bottom-color: antiquewhite;
-  /* Change color on hover */
-  transition: border-bottom-color 0.3s;
-}
-
-
 /* Responsive design for screen-size=>768px */
 @media screen and (min-width: 768px) {
 
@@ -201,7 +197,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 410px;
+    top: 418px;
   }
 
   #contact-sign {
@@ -249,7 +245,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 490px;
+    top: 503px;
   }
 
   #contact-sign {
@@ -257,7 +253,7 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   #about-sign {
@@ -288,7 +284,7 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   #social-network {
@@ -391,6 +387,10 @@ nav {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 7px;
+}
+
+.contactus-header nav li:hover a {
+  color: goldenrod;
 }
 
 .contactus-main {
@@ -532,7 +532,6 @@ textarea {
     padding: 4px;
   }
 }
-
 /*
 /*
 /*
@@ -541,7 +540,7 @@ textarea {
 
 .about-header {
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -575,8 +574,14 @@ textarea {
   padding: 0 7px;
 }
 
+.about-header nav li:hover a {
+  color: goldenrod;
+}
+
 .about-main {
-  background-color: lightblue;
+  background: url(../assets/media/black02.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
   flex: 1 0 auto
 }
 
@@ -597,8 +602,8 @@ textarea {
 
 .our-msg h2 {
   color: antiquewhite;
-  font-size: 40px;
-  margin-top: 1%;
+  font-size: 35px;
+  margin-top: 7%;
   letter-spacing: 4px;
   flex: 1 0 auto;
   text-align: center;
@@ -616,24 +621,15 @@ textarea {
 }
 
 .our-msg p {
-  color: black;
+  color: lavenderblush;
   letter-spacing: 1px;
-  line-height: 180%;
+  line-height: 190%;
   flex: 1 0 auto;
-  font-size: 70%;
+  font-size: 75%;
 }
 
 span {
-  color: red;
-}
-
-span a {
   color: goldenrod;
-}
-
-span a:hover {
-  color: antiquewhite;
-  cursor: pointer;
 }
 
 .main {
@@ -653,16 +649,20 @@ details summary h4 {
   color: antiquewhite;
 }
 
+details summary h4 u {
+  padding: 4%;
+}
+
 details summary:hover {
   background-color: goldenrod;
 }
 
 .morecontent p {
-  color: black;
+  color: lavenderblush;
   letter-spacing: 1px;
-  line-height: 180%;
+  line-height: 190%;
   flex: 1 0 auto;
-  font-size: 70%;
+  font-size: 75%;
   padding: 3%;
 }
 
@@ -689,14 +689,12 @@ details>summary:first-of-type {
   }
 
   .intro img {
-    height: auto;
     width: 370px;
     display: inline-flex;
     padding-right: 3%;
   }
 
   .our-msg p {
-    color: black;
     letter-spacing: 1px;
     line-height: 180%;
     flex: 1 0 auto;
@@ -704,7 +702,6 @@ details>summary:first-of-type {
   }
 
   .morecontent p {
-    color: black;
     letter-spacing: 1px;
     line-height: 180%;
     flex: 1 0 auto;
@@ -797,6 +794,10 @@ details>summary:first-of-type {
   padding: 0 7px;
 }
 
+.gallery-header nav li:hover a {
+  color: goldenrod;
+}
+
 .gallery-main {
   background-color: lightblue;
   flex: 1 0 auto
@@ -851,6 +852,10 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
   font-size: 25px;
+}
+
+a:hover {
+  color: goldenrod;
 }
 
 /* Media query:tablets and larger (768 & up) */
@@ -933,6 +938,10 @@ a:-webkit-any-link {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 7px;
+}
+
+.learnmore-header nav li:hover a {
+  color: goldenrod;
 }
 
 .learnmore-main {
