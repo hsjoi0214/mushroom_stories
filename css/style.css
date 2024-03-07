@@ -488,6 +488,14 @@ textarea {
   input[type="reset"i] {
     padding: 4px;
   }
+
+  #social-network {
+    padding: 25px 0;
+  }
+
+  #social-network i {
+    font-size: 25px;
+  }
 }
 
 /* Media query:tablets and larger (820 & up) */
@@ -658,13 +666,14 @@ details summary:hover {
   padding: 3%;
 }
 
-details[open] > summary:first-of-type {
+details[open]>summary:first-of-type {
   list-style-type: none;
 }
 
-details > summary:first-of-type {
+details>summary:first-of-type {
   list-style: none;
 }
+
 /* Media query:tablets and larger (768 & up) */
 @media screen and (min-width: 768px) {
   .about-header h1 {
