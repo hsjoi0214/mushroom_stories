@@ -613,6 +613,13 @@ details summary:hover {
   padding: 3%;
 }
 
+details[open] > summary:first-of-type {
+  list-style-type: none;
+}
+
+details > summary:first-of-type {
+  list-style: none;
+}
 /* Media query:tablets and larger (768 & up) */
 @media screen and (min-width: 768px) {
   .about-header h1 {
@@ -757,6 +764,7 @@ details summary:hover {
   margin: auto;
   background: #f2f2f2;
   overflow: hidden;
+  margin: auto;
 }
 
 .mushroom-gallery {
@@ -775,7 +783,7 @@ details summary:hover {
 }
 
 .desc {
-  padding: 1px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -788,6 +796,7 @@ a:-webkit-any-link {
   color: green;
   cursor: pointer;
   text-decoration: none;
+  font-size: 25px;
 }
 
 /* Media query:tablets and larger (768 & up) */
@@ -805,9 +814,28 @@ a:-webkit-any-link {
     margin: 148px 0px 0px;
   }
 
-  .desc a {
-    font-size: 12%;
-    list-style-type: none;
+  a:-webkit-any-link {
+    font-size: 35px;
+  }
+}
+
+/* Media query:tablets and larger (1024 & up) */
+@media screen and (min-width: 1024px) {
+  .gallery-header h1 {
+    font-size: 45px;
+    padding-bottom: 2%;
+    letter-spacing: 2px;
+  }
+
+  .gallery-main h2 {
+    font-size: 40px;
+    margin-top: 25%;
+    letter-spacing: 6px;
+    margin: 150px 0px 0px;
+  }
+
+  a:-webkit-any-link {
+    font-size: 40px;
   }
 }
 
