@@ -156,10 +156,6 @@ nav {
   padding: 0 0.2rem;
 }
 
-#remove-pt {
-  list-style-type: none;
-}
-
 #index-sign,
 #about-sign {
   float: left;
@@ -916,7 +912,7 @@ a:hover {
   box-shadow: 0 2px 2px #3a3a3a;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .learnmore-header h1 {
@@ -947,15 +943,27 @@ a:hover {
 }
 
 .learnmore-main {
-  background-color: #ddd;
-  flex: 1 0 auto
+  padding: 3%;
+  background-image: url("../assets/media/trail16.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.learnmore-main article {
+  background-color: #D7E7CE;
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 12px;
+  margin-bottom: 10%;
 }
 
 .learnmore-main h2 {
-  color: green;
+  color: midnightblue;
   font-size: 25px;
   text-transform: capitalize;
-  margin-top: 25%;
+  margin-top: 26%;
   letter-spacing: 4px;
   flex: 1 0 auto;
   text-align: center;
@@ -995,7 +1003,11 @@ a:hover {
 }
 
 .learnmore-main h4 {
-  color: antiquewhite;
+  color: midnightblue;
+}
+
+#remove-pt {
+  list-style-type: none;
 }
 
 /* Media query:tablets and larger (768 & up) */
@@ -1087,3 +1099,4 @@ a:hover {
     font-size: 172%;
   }
 }
+
