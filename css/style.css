@@ -104,7 +104,7 @@ body {
 }
 
 .home-main {
-  background-color: lightblue;
+  background: lightblue;
   flex: 1 0 auto
 }
 
