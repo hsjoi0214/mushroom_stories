@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: sans-serif;
-  color: #3a3a3a;
+  color: #1E1F24;
 }
 
 .active {
@@ -760,7 +760,7 @@ details>summary:first-of-type {
 /*
 /* STYLE FOR 'Gallery' PAGE */
 .gallery-header {
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -799,19 +799,20 @@ details>summary:first-of-type {
 }
 
 .gallery-main {
-  background-color: lightblue;
+  background: url(../assets/media/black02.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
   flex: 1 0 auto
 }
 
 .gallery-main h2 {
-  color: black;
+  color: lavenderblush;
   font-size: 20px;
   text-transform: capitalize;
   margin-top: 25%;
   letter-spacing: 4px;
   flex: 1 0 auto;
   text-align: center;
-
 }
 
 .product-container {
@@ -848,10 +849,11 @@ details>summary:first-of-type {
 }
 
 a:-webkit-any-link {
-  color: green;
+  color: darkolivegreen;
   cursor: pointer;
   text-decoration: none;
   font-size: 25px;
+  font-weight: bold;
 }
 
 a:hover {
@@ -906,7 +908,7 @@ a:hover {
 /*
 /* STYLE FOR 'learn more' PAGE */
 .learnmore-header {
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -945,7 +947,7 @@ a:hover {
 }
 
 .learnmore-main {
-  background-color: lightblue;
+  background-color: #ddd;
   flex: 1 0 auto
 }
 
@@ -993,7 +995,7 @@ a:hover {
 }
 
 .learnmore-main h4 {
-  color: black;
+  color: antiquewhite;
 }
 
 /* Media query:tablets and larger (768 & up) */
