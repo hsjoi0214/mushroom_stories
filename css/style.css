@@ -33,7 +33,7 @@ body {
   list-style-type: none;
 }
 
-/* BEFORE: Media query:tablets and larger (768 & up) */
+/* BEFORE: Media query:tablets and larger (768+ px) */
 .navselector {
   position: absolute;
   background-color: #D7E7CE;
@@ -91,6 +91,7 @@ body {
     display: none;
   }
 }
+
 /*
 /*
 /*
@@ -342,8 +343,8 @@ nav {
   #learn-sign {
     padding-top: 4%;
   }
-
 }
+
 /*
 /*
 /*
@@ -432,7 +433,7 @@ nav {
   letter-spacing: 3px;
   color: antiquewhite;
   font-size: 100%;
-  
+
 }
 
 textarea {
@@ -596,7 +597,6 @@ textarea {
 /*
 /*
 /* STYLE FOR 'About us' PAGE */
-
 .about-header {
   margin: 0 auto;
   background-color: #D7E7CE;
@@ -812,7 +812,6 @@ details>summary:first-of-type {
     font-size: 180%;
   }
 }
-
 /*
 /*
 /*
@@ -957,6 +956,10 @@ a:hover {
   a:-webkit-any-link {
     font-size: 40px;
   }
+
+  .gallery-header nav li a {
+    font-size: 18px;
+  }
 }
 /*
 /*
@@ -1009,7 +1012,6 @@ a:hover {
   background-position: center;
   background-attachment: fixed;
 }
-
 
 .learnmore-main article {
   background-color: #D7E7CE;
@@ -1164,4 +1166,3 @@ a:hover {
     padding: 0 7px;
   }
 }
-
