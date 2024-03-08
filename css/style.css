@@ -344,14 +344,13 @@ nav {
   }
 
 }
-
 /*
 /*
 /*
 /*
 /* STYLE FOR 'CONTACT' PAGE */
 .contactus-header {
-  background-color: #ffffff;
+  background-color: #D7E7CE;
   padding: 0 1rem;
   position: fixed;
   z-index: 99;
@@ -390,12 +389,26 @@ nav {
 }
 
 .contactus-main {
-  background-color: lightblue;
-  flex: 1 0 auto
+  padding: 2%;
+  background-image: url("../assets/media/trial02.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contactus-main article {
+  background-image: url("../assets/media/black02.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1em 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 12px;
+  margin-bottom: 10%;
 }
 
 .contactus-main h2 {
-  color: green;
+  color: black;
   font-size: 15px;
   text-transform: capitalize;
   margin-top: 25%;
@@ -408,17 +421,18 @@ nav {
   font-family: 'Abril Fatface', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: brown;
+  color: antiquewhite;
   font-size: 60%;
-  padding: 0.2%;
+  padding: 2%;
 }
 
 .contactus-main fieldset legend {
   font-family: 'Abril Fatface', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: red;
+  letter-spacing: 3px;
+  color: antiquewhite;
   font-size: 100%;
+  
 }
 
 textarea {
@@ -428,8 +442,7 @@ textarea {
   width: 100%;
   height: 100px;
   border: 1px solid #000000;
-  background-color: #CCCCCC;
-
+  background-color: whitesmoke;
 }
 
 .name_email-field input[type=text] {
@@ -438,7 +451,7 @@ textarea {
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: whitesmoke;
 }
 
 .name_email-field input[type=email] {
@@ -447,10 +460,8 @@ textarea {
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: whitesmoke;
 }
-
-
 
 /* Media query:tablets and larger (768 & up) */
 @media screen and (min-width: 768px) {
@@ -460,9 +471,14 @@ textarea {
   }
 
   .contactus-main h2 {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 20%;
     letter-spacing: 6px;
+  }
+
+  .contactus-header nav li a {
+    font-size: 15px;
+    padding: 0 5px;
   }
 
   .contactus-main fieldset {
@@ -475,6 +491,13 @@ textarea {
     letter-spacing: 4px;
     font-size: 125%;
     padding: 0.1%;
+  }
+
+  textarea {
+    width: 100%;
+    border: 0.6px solid #000000;
+    background-color: whitesmoke;
+    box-shadow: 0 0 15px;
   }
 
   #submit {
@@ -498,12 +521,12 @@ textarea {
 @media screen and (min-width: 820px) {
   .contactus-header h1 {
     letter-spacing: 2px;
-    font-size: 35px;
+    font-size: 40px;
     padding-bottom: 2%;
   }
 
   .contactus-main h2 {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 20%;
     letter-spacing: 6px;
   }
@@ -526,6 +549,46 @@ textarea {
 
   input[type="reset"i] {
     padding: 4px;
+  }
+}
+
+/* Media query:tablets and larger (1024 & up) */
+@media screen and (min-width: 1024px) {
+  .contactus-header h1 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding-bottom: 2%;
+  }
+
+  .contactus-main h2 {
+    font-size: 35px;
+    margin-top: 20%;
+    letter-spacing: 6px;
+  }
+
+  .contactus-header nav li a {
+    font-size: 25px;
+    padding: 0 5px;
+  }
+
+  .contactus-main fieldset {
+    letter-spacing: 4px;
+    font-size: 100%;
+    padding: 5%;
+  }
+
+  .contactus-main fieldset legend {
+    letter-spacing: 4px;
+    font-size: 135%;
+    padding: 0.2%;
+  }
+
+  #submit {
+    font-size: 20px
+  }
+
+  input[type="reset"i] {
+    padding: 5px;
   }
 }
 /*
@@ -895,9 +958,6 @@ a:hover {
     font-size: 40px;
   }
 }
-
-
-
 /*
 /*
 /*
@@ -1059,7 +1119,7 @@ a:hover {
 @media screen and (min-width: 1024px) {
   .learnmore-header h1 {
     letter-spacing: 2px;
-    font-size: 45px;
+    font-size: 50px;
     padding-bottom: 2%;
   }
 
@@ -1097,6 +1157,11 @@ a:hover {
   .learnmore-main h4 {
     color: black;
     font-size: 172%;
+  }
+
+  .learnmore-header nav li a {
+    font-size: 20px;
+    padding: 0 7px;
   }
 }
 
