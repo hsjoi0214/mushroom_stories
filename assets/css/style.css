@@ -128,7 +128,7 @@ body {
 }
 
 .home-main {
-  background: url(assets/media/trial07modified02.jpeg) no-repeat;
+  background: url("assets/media/trial07modified02.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto;
@@ -638,7 +638,7 @@ textarea {
 }
 
 .about-main {
-  background: url(assets/media/black02.jpeg) no-repeat;
+  background: url("assets/media/black02.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto
@@ -680,7 +680,7 @@ textarea {
 }
 
 .our-msg p {
-  color: black;
+  color: lavenderblush;
   letter-spacing: 1px;
   line-height: 190%;
   flex: 1 0 auto;
@@ -717,7 +717,7 @@ details summary:hover {
 }
 
 .morecontent p {
-  color: black;
+  color: lavenderblush;
   letter-spacing: 1px;
   line-height: 190%;
   flex: 1 0 auto;
