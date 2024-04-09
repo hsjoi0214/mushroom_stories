@@ -128,7 +128,7 @@ body {
 }
 
 .home-main {
-  background: url("assets/media/trial07modified02.jpeg") no-repeat;
+  background: url(assets/media/trial07modified02.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto;
@@ -391,14 +391,14 @@ nav {
 
 .contactus-main {
   padding: 2%;
-  background-image: url("assets/media/trial02.jpg");
+  background-image: url("../assets/media/trial02.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .contactus-main article {
-  background-image: url("assets/media/black02.jpeg");
+  background-image: url("../assets/media/black02.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -638,7 +638,7 @@ textarea {
 }
 
 .about-main {
-  background: url("assets/media/black02.jpeg") no-repeat;
+  background: url(../assets/media/black02.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto
@@ -857,7 +857,7 @@ details>summary:first-of-type {
 }
 
 .gallery-main {
-  background: url(assets/media/black02.jpeg) no-repeat;
+  background: url(../assets/media/black02.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto
@@ -1007,7 +1007,7 @@ a:hover {
 
 .learnmore-main {
   padding: 3%;
-  background-image: url(assets/media/trail16.jpg);
+  background-image: url("../assets/media/trail16.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
