@@ -38,7 +38,6 @@ body {
   position: absolute;
   background-color: #D7E7CE;
   width: 100%;
-  left: 100;
   padding: 0 1rem;
   box-shadow: 0 2px 2px #3a3a3a;
   display: none;
@@ -128,7 +127,7 @@ body {
 }
 
 .home-main {
-  background: url(assets/media/trial07modified02.jpeg) no-repeat;
+  background: url(../assets/media/trial07modified02.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   flex: 1 0 auto;
@@ -155,6 +154,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 0 0.2rem;
+  
 }
 
 #index-sign,
@@ -163,14 +163,19 @@ nav {
   position: relative;
   top: 300px;
   letter-spacing: 6px;
+  clear: both; 
+  margin-bottom: 30px; 
 }
+
 
 #gallery-sign,
 #learn-sign {
   float: right;
   position: relative;
-  top: 268px;
+  top: 210px;
   letter-spacing: 6px;
+  clear: both;
+  margin-bottom: 30px; 
 }
 
 #contact-sign {
@@ -181,8 +186,15 @@ nav {
   transform: translateX(-50%);
   margin-bottom: 30%;
   letter-spacing: 6px;
-  padding: 3%;
+  border-radius: 5px; 
+  background-color: black; 
+  padding: 5px 10px;
 }
+
+.home-footer {
+  background-color:#D7E7CE ;
+}
+
 
 /* Responsive design for screen-size=>768px */
 @media screen and (min-width: 768px) {
@@ -194,7 +206,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 418px;
+    top: 300px;
   }
 
   #contact-sign {
@@ -242,7 +254,7 @@ nav {
 
   #gallery-sign,
   #learn-sign {
-    top: 503px;
+    top: 375px;
   }
 
   #contact-sign {
@@ -267,12 +279,12 @@ nav {
 
   #index-sign,
   #about-sign {
-    top: 580px;
+    top: 600px;
   }
 
   #gallery-sign,
   #learn-sign {
-    top: 550px;
+    top: 420px;
   }
 
   #contact-sign {
@@ -281,7 +293,7 @@ nav {
   }
 
   .home-main nav li a {
-    font-size: 30px;
+    font-size: 40px;
   }
 
   #social-network {
@@ -408,9 +420,16 @@ nav {
   margin-bottom: 10%;
 }
 
+.contactus-main article h4 {
+  text-decoration: underline; 
+  font-weight: normal; 
+  font-family: 'Arial', sans-serif; 
+  color: #E9F1F7;
+}
+
 .contactus-main h2 {
-  color: black;
-  font-size: 15px;
+  color: #252525;
+  font-size: 30px;
   text-transform: capitalize;
   margin-top: 25%;
   letter-spacing: 4px;
@@ -472,7 +491,7 @@ textarea {
   }
 
   .contactus-main h2 {
-    font-size: 35px;
+    font-size: 45px;
     margin-top: 20%;
     letter-spacing: 6px;
   }
@@ -505,7 +524,7 @@ textarea {
     font-size: 18px
   }
 
-  input[type="reset"i] {
+  input[type="reset"] {
     padding: 4px;
   }
 
@@ -548,7 +567,7 @@ textarea {
     font-size: 18px
   }
 
-  input[type="reset"i] {
+  input[type="reset"] {
     padding: 4px;
   }
 }
@@ -588,7 +607,7 @@ textarea {
     font-size: 20px
   }
 
-  input[type="reset"i] {
+  input[type="reset"] {
     padding: 5px;
   }
 }
@@ -628,7 +647,7 @@ textarea {
   color: black;
   display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 7px;
 }
@@ -661,7 +680,7 @@ textarea {
 
 .our-msg h2 {
   color: antiquewhite;
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 7%;
   letter-spacing: 4px;
   flex: 1 0 auto;
@@ -679,16 +698,16 @@ textarea {
   text-align: center;
 }
 
+.our-msg h6 span {
+  color: goldenrod;
+}
+
 .our-msg p {
   color: lavenderblush;
   letter-spacing: 1px;
   line-height: 190%;
   flex: 1 0 auto;
   font-size: 75%;
-}
-
-span {
-  color: goldenrod;
 }
 
 .main {
@@ -742,7 +761,7 @@ details>summary:first-of-type {
   }
 
   .about-main h2 {
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 20%;
     letter-spacing: 6px;
   }
@@ -847,7 +866,7 @@ details>summary:first-of-type {
   color: black;
   display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 7px;
 }
@@ -864,8 +883,8 @@ details>summary:first-of-type {
 }
 
 .gallery-main h2 {
-  color: lavenderblush;
-  font-size: 20px;
+  color: antiquewhite;
+  font-size: 30px;
   text-transform: capitalize;
   margin-top: 25%;
   letter-spacing: 4px;
@@ -902,17 +921,14 @@ details>summary:first-of-type {
 }
 
 .desc a {
-  font-size: 100%;
   list-style-type: none;
-}
-
-a:-webkit-any-link {
   color: darkolivegreen;
   cursor: pointer;
   text-decoration: none;
   font-size: 25px;
   font-weight: bold;
 }
+
 
 a:hover {
   color: goldenrod;
@@ -927,13 +943,13 @@ a:hover {
   }
 
   .gallery-main h2 {
-    font-size: 28px;
+    font-size: 45px;
     margin-top: 20%;
     letter-spacing: 6px;
     margin: 148px 0px 0px;
   }
 
-  a:-webkit-any-link {
+  .desc a {
     font-size: 35px;
   }
 }
@@ -996,7 +1012,7 @@ a:hover {
   color: black;
   display: block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 7px;
 }
@@ -1022,13 +1038,14 @@ a:hover {
 }
 
 .learnmore-main h2 {
-  color: midnightblue;
-  font-size: 25px;
+  color: #252525;
+  font-size: 30px;
   text-transform: capitalize;
   margin-top: 26%;
   letter-spacing: 4px;
   flex: 1 0 auto;
   text-align: center;
+  font-weight: bold;
 }
 
 .learnmore-main p {
@@ -1052,14 +1069,17 @@ a:hover {
   border-top: 1px solid #ddd;
 }
 
-.learnmore-main h5 ul li {
+.learnmore-main ul li {
   margin-left: 3%;
-  font-size: 90%;
   padding-bottom: 2%;
-  line-height: 170%;
+  font-size: 95%; 
+  line-height: 180%; 
+  color: #333;  
+  font-family: 'Georgia', serif; 
 }
 
-.learnmore-main h5 ul li span {
+
+.learnmore-main ul li span {
   font-size: 100%;
   color: darkslateblue;
 }
@@ -1068,7 +1088,7 @@ a:hover {
   color: midnightblue;
 }
 
-#remove-pt {
+.remove-pt {
   list-style-type: none;
 }
 
@@ -1081,8 +1101,8 @@ a:hover {
   }
 
   .learnmore-main h2 {
-    font-size: 40px;
-    margin-top: 20%;
+    font-size: 45px;
+    margin-top: 18%;
     letter-spacing: 6px;
   }
 
@@ -1100,13 +1120,13 @@ a:hover {
     font-size: 30px;
   }
 
-  .learnmore-main h5 ul li {
+  .learnmore-main p ul li {
     font-size: 130%;
     padding-bottom: 2%;
     line-height: 170%;
   }
 
-  .learnmore-main h5 ul li span {
+  .learnmore-main p ul li span {
     font-size: 100%;
     color: darkslateblue;
   }
@@ -1145,13 +1165,13 @@ a:hover {
     font-size: 40px;
   }
 
-  .learnmore-main h5 ul li {
+  .learnmore-main p ul li {
     font-size: 200%;
     padding-bottom: 2%;
     line-height: 190%;
   }
 
-  .learnmore-main h5 ul li span {
+  .learnmore-main p ul li span {
     font-size: 120%;
     color: darkslateblue;
   }

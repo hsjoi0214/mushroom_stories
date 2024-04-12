@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A Boring Mushroom Company</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
@@ -27,8 +27,9 @@
   <main class="contactus-main">
     <h2>Give us a feedback!</h2><br>
     <article>
+      <h4>Please fill in your details.</h4><br>
       <form action="https://formdump.codeinstitute.net" method="POST">
-        <section>
+        <div>
           <fieldset>
             <legend>Your details</legend><br>
             <div class="name_email-field">
@@ -41,17 +42,17 @@
               <input id="email-field" type="email" name="email" placeholder="Please enter Your email" required>
             </div>
           </fieldset>
-        </section>
+        </div>
 
         <br>
         <br>
 
-        <section>
+        <div>
           <fieldset>
-            <legend>Tell us more about your experience</legend><br>
+            <legend>Tell us more</legend><br>
             <div>
               <label for="fav-mushroom"><strong>Your favorite mushroom?</strong></label>
-              <input id=" fav-mushroom" list="mushrooms" name="fav-mushroom" style="width: 100%">
+              <input id="fav-mushroom" list="mushrooms" name="fav-mushroom" style="width: 100%">
               <datalist id="mushrooms">
                 <option value="Turkey Tail">
                 <option value="Cordeceps">
@@ -87,11 +88,11 @@
               <label for="not-often">Not often</label>
             </div>
           </fieldset>
-        </section>
+        </div>
 
         <br><br>
 
-        <section>
+        <div>
           <fieldset>
             <legend>Feedback</legend><br>
             <textarea id="feedback" name="feedback" placeholder="Give us your feedback or write us a message!"
@@ -102,7 +103,7 @@
             <strong id="submit">Send</strong>
           </button>
           <input type="reset" value="Reset Form" id="resetbtn">
-        </section>
+        </div>
       </form>
     </article>
   </main>
@@ -112,8 +113,6 @@
           class="fa-brands fa-facebook"></i></li>
       <li><a href="www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"></a><i
           class="fa-brands fa-square-x-twitter"></i></li>
-      <li><a href="www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our youtube page"></a><i
-          class="fa-brands fa-youtube"></i></li>
       <li><a href="www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"></a><i
           class="fa-brands fa-square-instagram"></i></li>
     </ul>
