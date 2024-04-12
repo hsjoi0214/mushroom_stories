@@ -34,9 +34,12 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 
         * **Screen size 375x667px (iPhone SE):**
 
+
             ![](assets/media/SmallSrnHomePage.png)
 
+
         * **Screen size 768x1024px (iPad Mini):**
+
 
             ![](assets/media/BiggerSrnHomePage.png)
 
@@ -47,17 +50,23 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 
         * **Screen size 375x667px (iPhone SE):**
 
+
             ![](assets/media/AboutUs-01.png)
+
 
 
             ![](assets/media/SmallSrnAboutUs-02.png)
 
+
         * **Screen size 768x1024px (iPad Mini):**
+
 
             ![](assets/media/BiggerSrnAboutUs-01.png)
 
 
+
             ![](assets/media/BiggerSrnAboutUs-02.png)
+
 
 - **`Gallery`** 
     * **Purpose:** Showcases images of all featured gourmet mushrooms, providing links to their details on the 'Learn' page.
@@ -66,11 +75,15 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 
         * **Screen size 375x667px (iPhone SE):**
 
+
             ![](assets/media/SmallSrnGalleryPage.png)
+
 
         * **Screen size 768x1024px (iPad Mini):**
 
+
             ![](assets/media/BiggerSrnGalleryPage.png)
+
 
 - **`Learn`**
     * **Purpose:** Provides interesting facts and stories about different mushrooms on the website.
@@ -79,12 +92,16 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 
         * **Screen size 375x667px (iPhone SE):**
 
+
             ![](assets/media/SmallSrnLearnPage-01.png)
+
 
 
             ![](assets/media/SmallSrnLearnPage-02.png)
 
+
         * **Screen size 768x1024px (iPad Mini):**
+
 
             ![](assets/media/BiggerSrnLearnPage-01.png)
 
@@ -95,11 +112,15 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 
         * **Screen size 375x667px (iPhone SE):**
 
+
             ![](assets/media/SmallSrnContactUsPage.png)
+
             
         * **Screen size 768x1024px (iPad Mini):**
 
+
             ![](assets/media/BiggerSrnContactUsPage.png)
+
 
 ## Possible Future Implementations
 The website has the potential to expand into a commercial platform with features like ordering, user feedback, and reviews.
@@ -148,12 +169,12 @@ This project was created on GitHub using the Code Institute template and deploye
 Git was used for version control. Changes were committed to the main branch of the GitHub repository. 
 The following commands were used throughout the project:
 
-git add . - new (or untracked), deleted and modified files are added to Git staging area.
-git commit -m "commit message" - to commit changes to the local repository.
-git push - to push all committed changes to the GitHub repository.
-git pull - to pull the changes from the remote branch and integrate them with the current local branch.
-git status - to display the state of the working directory and the staging area.
-git log - to display commits.
+1. git add . - new (or untracked), deleted and modified files are added to Git staging area.
+2. git commit -m "commit message" - to commit changes to the local repository.
+3. git push - to push all committed changes to the GitHub repository.
+4. git pull - to pull the changes from the remote branch and integrate them with the current local branch.
+5. git status - to display the state of the working directory and the staging area.
+6. git log - to display commits.
 
 ## How to Fork
 To fork the mushroom_stories repository:
@@ -184,7 +205,7 @@ Trying to open the social network link.
 
 - **Result:** The link was not clickable and it did not react.
      
-- **Fix:** Changed the footer code snippet and the <i> class.
+- **Fix:** Changed the footer code snippet and the 'i' class.
 
     ![](assets/media/Debug01.png)
 
@@ -242,7 +263,7 @@ Trying to open the social network link.
 
 ## Validation testing
 
-Both the HTML and CSS are validated from the Validator links provided by Code Institute.
+Both the HTML and CSS are validated using the Validator links provided by Code Institute.
 
 ### HTML 
 All the pages of the website are checked usign the HTML Checker.
