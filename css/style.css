@@ -29,8 +29,13 @@ body {
   text-align: center;
   padding: 20px 0;
   display: flex;
-  justify-content: space-evenly;
   list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#social-network .fa-instagram {
+  font-size: 25px;
 }
 
 /* BEFORE: Media query:tablets and larger (768+ px) */

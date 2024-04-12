@@ -270,6 +270,7 @@ Images used in this project:
 - Learn CSS: https://developer.mozilla.org/en-US/docs/Learn/CSS
 - Learn HTML: https://developer.mozilla.org/en-US/docs/Learn/HTML
 - Code institute for providing template and know-how to work with Github,Gitpod and Github Pages.
+- Google Fonts: https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap
 
 # Acknowledgements
 
