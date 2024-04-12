@@ -31,48 +31,74 @@ Our website comprises five easily navigable pages. Here's a breakdown:
     * **Purpose:** On the Home page, the user is welcomed with a clean user interface of the website where only the absoulte essential links are kept. The 'Home Page' is created differently than rest of the page to give a minimilistic look. This page leads the user to different webpages of the website.
     * **Functionality:** Features the website logo, company name, and five hyperlinks for seamless navigation. Active pages are indicated with an underline and hover effects.
     * **Deployed website:** Images of the deployed Home page for two screen sizes:
+
         * **Screen size 375x667px (iPhone SE):**
+
             ![](assets/media/SmallSrnHomePage.png)
+
         * **Screen size 768x1024px (iPad Mini):**
+
             ![](assets/media/BiggerSrnHomePage.png)
 
 - **`About`**
     * **Purpose:** The About page has the company name on the top left corner of the screen followed by a navigation bar that is only active until the user is accessing the website via a device with min-width less then 768px. Tells the story behind the website, its creators, and their motivations. 
     * **Functionality:** Features a navigation bar active on smaller screens (less than 768px width). Offers a hidden "Read more about our mission" section revealed on click, with a hover effect.
     * **Deployed website:** Images of the deployed About page for two screen sizes:
+
         * **Screen size 375x667px (iPhone SE):**
+
             ![](assets/media/AboutUs-01.png)
+
+
             ![](assets/media/SmallSrnAboutUs-02.png)
+
         * **Screen size 768x1024px (iPad Mini):**
+
             ![](assets/media/BiggerSrnAboutUs-01.png)
+
+
             ![](assets/media/BiggerSrnAboutUs-02.png)
 
 - **`Gallery`** 
     * **Purpose:** Showcases images of all featured gourmet mushrooms, providing links to their details on the 'Learn' page.
     * **Functionality:** Maintains a clean, image-focused design. Image captions link to corresponding sections on the 'Learn' page.
     * **Deployed website:** Images of the deployed Gallery page for two screen sizes:
+
         * **Screen size 375x667px (iPhone SE):**
+
             ![](assets/media/SmallSrnGalleryPage.png)
+
         * **Screen size 768x1024px (iPad Mini):**
+
             ![](assets/media/BiggerSrnGalleryPage.png)
 
 - **`Learn`**
     * **Purpose:** Provides interesting facts and stories about different mushrooms on the website.
     * **Functionality:** Every section is further linked to its corresponding picture in the gallery.html page.  
     * **Deployed website:** Images of the deployed Home page for two screen sizes:
+
         * **Screen size 375x667px (iPhone SE):**
+
             ![](assets/media/SmallSrnLearnPage-01.png)
+
+
             ![](assets/media/SmallSrnLearnPage-02.png)
+
         * **Screen size 768x1024px (iPad Mini):**
+
             ![](assets/media/BiggerSrnLearnPage-01.png)
 
 - **`Contact Us`**
     * **Purpose:** Enables users to send feedback and choose their favorite mushrooms from a questionnaire.
     * **Functionality:** Features fields for simple contact details, mushroom preferences and leave feedback.
     * **Deployed website:** Images of the deployed Home page for two screen sizes:
+
         * **Screen size 375x667px (iPhone SE):**
+
             ![](assets/media/SmallSrnContactUsPage.png)
+            
         * **Screen size 768x1024px (iPad Mini):**
+
             ![](assets/media/BiggerSrnContactUsPage.png)
 
 ## Possible Future Implementations
