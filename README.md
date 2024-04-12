@@ -177,22 +177,20 @@ Testing was done both at my local machine level and when the program was deploye
 
 ## Testing done Locally
 
-### Debugging scenario 1: 
+### Debugging scenario 1
+Trying to open the social network link. 
 
+- **Expected behaviour:** When clicked, the link should take me to the instagram account.
 
-- **Expected behaviour:** 
+- **Result:** The link was not clickable and it did not react.
+     
+- **Fix:** Changed the footer code snippet and the <i> class.
 
-- **Result:** 
+    ![](assets/media/Debug01.png)
 
-    ![]()
+- **Result after the fix:** When clicked, it opens up the Instagram page for the website.
 
-- **Fix:** 
-
-    ![]()
-
-- **Result after the fix:** 
-
-    ![]()
+    ![](assets/media/Debug011.png)
 
 ### Debugging scenario 2: 
 
@@ -240,6 +238,27 @@ Testing was done both at my local machine level and when the program was deploye
 - **Result after the fix:** 
 
     ![]()
+
+
+## Validation testing
+
+Both the HTML and CSS are validated from the Validator links provided by Code Institute.
+
+### HTML 
+All the pages of the website are checked usign the HTML Checker.
+
+- [W3C HTML Validator](https://validator.w3.org/nu/#textarea) Nu HTML Checker.
+
+    ![](assets/media/htmlChecker.png)
+
+### CSS 
+The style.css is checked using the CSS validator.
+
+- [W3C CSS Validator(Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input) CSS Validation Service.
+
+    ![](assets/media/cssChecker.png)
+
+
 
 ## Testing when deploying on GitHub pages
 
