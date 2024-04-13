@@ -205,7 +205,7 @@ Trying to open the social network link.
 
 - **Result:** The link was not clickable and it did not react.
      
-- **Fix:** Changed the footer code snippet and the 'i' class.
+- **Fix:** Changed the 'i' class of the footer code snippet.
 
     ![](assets/media/Debug01.png)
 
@@ -242,23 +242,6 @@ Trying to open the social network link.
     ![]()
 
 - **Result after the fix:** 
-
-### Debugging scenario 4: 
-
-
-- **Expected behaviour:** 
-
-- **Result:** 
-
-    ![]()
-
-- **Fix:** 
-
-    ![]()
-
-- **Result after the fix:** 
-
-    ![]()
 
 
 ## Validation testing
