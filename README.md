@@ -30,7 +30,7 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 - **`Home page`**
     * **Purpose:** On the Home page, the user is welcomed with a clean user interface of the website where only the absoulte essential links are kept. The 'Home Page' is created differently than rest of the page to give a minimilistic look. This page leads the user to different webpages of the website.
     * **Functionality:** Features the website logo, company name, and five hyperlinks for seamless navigation. Active pages are indicated with an underline and hover effects.
-    * **Deployed website:** Images of the deployed Home page for two screen sizes:
+    * **Deployed Website:** Images of the deployed Home page for two screen sizes:
 
         * **Screen size 375x667px (iPhone SE):**
 
@@ -46,7 +46,7 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 - **`About`**
     * **Purpose:** The About page has the company name on the top left corner of the screen followed by a navigation bar that is only active until the user is accessing the website via a device with min-width less then 768px. Tells the story behind the website, its creators, and their motivations. 
     * **Functionality:** Features a navigation bar active on smaller screens (less than 768px width). Offers a hidden "Read more about our mission" section revealed on click, with a hover effect.
-    * **Deployed website:** Images of the deployed About page for two screen sizes:
+    * **Deployed Website:** Images of the deployed About page for two screen sizes:
 
         * **Screen size 375x667px (iPhone SE):**
 
@@ -71,7 +71,7 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 - **`Gallery`** 
     * **Purpose:** Showcases images of all featured gourmet mushrooms, providing links to their details on the 'Learn' page.
     * **Functionality:** Maintains a clean, image-focused design. Image captions link to corresponding sections on the 'Learn' page.
-    * **Deployed website:** Images of the deployed Gallery page for two screen sizes:
+    * **Deployed Website:** Images of the deployed Gallery page for two screen sizes:
 
         * **Screen size 375x667px (iPhone SE):**
 
@@ -88,7 +88,7 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 - **`Learn`**
     * **Purpose:** Provides interesting facts and stories about different mushrooms on the website.
     * **Functionality:** Every section is further linked to its corresponding picture in the gallery.html page.  
-    * **Deployed website:** Images of the deployed Home page for two screen sizes:
+    * **Deployed Website:** Images of the deployed Home page for two screen sizes:
 
         * **Screen size 375x667px (iPhone SE):**
 
@@ -108,7 +108,7 @@ Our website comprises five easily navigable pages. Here's a breakdown:
 - **`Contact Us`**
     * **Purpose:** Enables users to send feedback and choose their favorite mushrooms from a questionnaire.
     * **Functionality:** Features fields for simple contact details, mushroom preferences and leave feedback.
-    * **Deployed website:** Images of the deployed Home page for two screen sizes:
+    * **Deployed Website:** Images of the deployed Home page for two screen sizes:
 
         * **Screen size 375x667px (iPhone SE):**
 
@@ -128,7 +128,7 @@ The website has the potential to expand into a commercial platform with features
 ## Accessibility
 I prioritized accessibility with mindful code practices, semantic tags, descriptive alt attributes for images, and clear indication of the active page throughout navigation.
 
-## Recommended screen sizes and devices
+## Recommended Screen Sizes And Devices
 The website works perfectly well with the following screen sizes and the corresponding devices:
 
 - iphone SE , screen size: 375 x 667px
@@ -143,7 +143,7 @@ The website works perfectly well with the following screen sizes and the corresp
 - HTML
 - CSS
 
-## Program, frameworks , libraries and tools
+## Program, Frameworks , Libraries And Tools
 
 - [Gitpod](https://gitpod.io/) IDE to develop the website.
 - [GitHub](https://GitHub.com/) to host the source code.
@@ -155,7 +155,7 @@ The website works perfectly well with the following screen sizes and the corresp
 
 # Deployment
 
-## Github and Github pages
+## Github And Github Pages
 This project was created on GitHub using the Code Institute template and deployed live using GitHub Pages. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
@@ -165,7 +165,7 @@ This project was created on GitHub using the Code Institute template and deploye
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown. 
 
-## Version control
+## Version Control
 Git was used for version control. Changes were committed to the main branch of the GitHub repository. 
 The following commands were used throughout the project:
 
@@ -176,14 +176,14 @@ The following commands were used throughout the project:
 5. git status - to display the state of the working directory and the staging area.
 6. git log - to display commits.
 
-## How to Fork
+## How To Fork
 To fork the mushroom_stories repository:
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, hsjoi0214/mushroom_stories.
 3. Click the Fork button in the top right corner.
 
-## How to Clone
+## How To Clone
 To clone the mushroom_stories repository:
 
 1. Log in (or sign up) to GitHub.
@@ -194,33 +194,33 @@ To clone the mushroom_stories repository:
 
 # Testing
 
-Testing was done both at my local machine level and when the program was deployed on GitHub Pages.
+Testing was performed at both the local development stage and after deployment on GitHub Pages.
 
-## Testing done Locally
+## Local Testing
 
-### Debugging scenario 1
-Trying to open the social network link. 
+### Debugging Scenario 1
+Non-clickable Social Network Link. 
 
-- **Expected behaviour:** When clicked, the link should take me to the instagram account.
+- **Expected Behaviour:** Clicking the social network link should open the corresponding Instagram account.
 
-- **Result:** The link was not clickable and it did not react.
+- **Initial Result:** The link was unresponsive.
      
-- **Fix:** Changed the 'i' class of the footer code snippet.
+- **Fix:** Adjusted the 'i' class within the footer code.
 
     ![](assets/media/Debug01.png)
 
-- **Result after the fix:** When clicked, it opens up the Instagram page for the website.
+- **Result After The Fix:** The link now successfully redirects to the Instagram page.
 
     ![](assets/media/Debug011.png)
 
-### Debugging scenario 2: 
-No option to directly go back to the top of the page on the Learn.html. 
+### Debugging Scenario 2: 
+Missing "Back to Top" Functionality (Learn.html).
 
-- **How it looked:** No avaialable option for users to go to the top.
+- **Initial State:** Users had no direct way to return to the top of the page.
 
     ![](assets/media/beforefix.png)
 
-- **Fix:** Added a new 'a' tag in the learn.html page and styled in style.css
+- **Fix:** Added a new 'a' tag to learn.html with styling in style.css.
 
     * **\<a href="#"...\</a\>**: Defines the anchor tag, creating the clickable link.
     * **href="#":**  Indicates the link should take the user to the top of the current page.
@@ -228,33 +228,33 @@ No option to directly go back to the top of the page on the Learn.html.
     * **title="Go to top":**  What appears to the user to click.
     * **Style.css:** styles are applied to id = back-to-top-button and a hover effect is added additionally. 
 
-- **Result after the fix:** 
+- **Result after the fix:** A "Back to Top" button now appears.
 
     ![](assets/media/afterFix.png)
 
 
-## Validation testing
+## Validation Testing
 
 Both the HTML and CSS are validated using the Validator links provided by Code Institute.
 
 ### HTML 
-All the pages of the website are checked usign the HTML Checker.
+All the pages of the website are validated usign the HTML validator.
 
 - [W3C HTML Validator](https://validator.w3.org/nu/#textarea) Nu HTML Checker.
 
     ![](assets/media/htmlChecker.png)
 
 ### CSS 
-The style.css is checked using the CSS validator.
+The style.css is validated using the CSS validator.
 
 - [W3C CSS Validator(Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_input) CSS Validation Service.
 
     ![](assets/media/cssChecker.png)
 
 
-## Testing when deploying on GitHub pages
+## Testing When Deploying On GitHub Pages
 
-- **Expected behaviour:** All the pages of the website opens up without any distortion and all styles are effective.
+- **Expected Behaviour:** All the pages of the website opens up without any distortion and all styles are effective.
 
 - **Result:** None of the images coming from the media folder were loading.
 
@@ -267,9 +267,8 @@ The style.css is checked using the CSS validator.
 
     ![](assets/media/codesnippet.png)
 
-- **Result after the fix:** 
+- **Result After The Fix:** Images are showing again. 
 
-    ![]()
 
 # Credits
 
