@@ -280,8 +280,24 @@ The style.css is checked using the CSS validator.
     ![](assets/media/cssChecker.png)
 
 
-
 ## Testing when deploying on GitHub pages
+
+- **Expected behaviour:** All the pages of the website opens up without any distortion and all styles are effective.
+
+- **Result:** None of the images coming from the media folder of the program directory were loading.
+
+    ![](assets/media/HomePage.png)
+
+
+    ![](assets/media/GalleryPage.png)
+
+- **Fix:** Removed the "../" from the relative path location from the img src tag.
+
+    ![](assets/media/codesnippet.png)
+
+- **Result after the fix:** 
+
+    ![]()
 
 # Credits
 
