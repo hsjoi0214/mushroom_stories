@@ -38,6 +38,23 @@ body {
   font-size: 25px;
 }
 
+#back-to-top-button {
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+}
+
+#back-to-top-button:hover {
+  background-color: goldenrod;
+  transition: background-color 0.5s;
+}
+
 /* BEFORE: Media query:tablets and larger (768+ px) */
 .navselector {
   position: absolute;

@@ -214,34 +214,23 @@ Trying to open the social network link.
     ![](assets/media/Debug011.png)
 
 ### Debugging scenario 2: 
+No option to directly go back to the top of the page on the Learn.html. 
 
+- **How it looked:** No avaialable option for users to go to the top.
 
-- **Expected behaviour:** 
+    ![](assets/media/beforefix.png)
 
-- **Result:** 
+- **Fix:** Added a new 'a' tag in the learn.html page and styled in style.css
 
-    ![]()
-
-- **Fix:** 
-
-
-- **Result after the fix:** 
-
-    ![]()
-
-### Debugging scenario 3: 
-
-
-- **Expected behaviour:** 
-
-- **Result:** 
-
-
-- **Fix:** 
-
-    ![]()
+    * **\<a href="#"...\</a\>**: Defines the anchor tag, creating the clickable link.
+    * **href="#":**  Indicates the link should take the user to the top of the current page.
+    * **id="back-to-top-button":**  Gives the link an ID, used for styling it in style.css.
+    * **title="Go to top":**  What appears to the user to click.
+    * **Style.css:** styles are applied to id = back-to-top-button and a hover effect is added additionally. 
 
 - **Result after the fix:** 
+
+    ![](assets/media/afterFix.png)
 
 
 ## Validation testing
@@ -267,7 +256,7 @@ The style.css is checked using the CSS validator.
 
 - **Expected behaviour:** All the pages of the website opens up without any distortion and all styles are effective.
 
-- **Result:** None of the images coming from the media folder of the program directory were loading.
+- **Result:** None of the images coming from the media folder were loading.
 
     ![](assets/media/HomePage.png)
 
